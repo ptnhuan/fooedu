@@ -43,7 +43,7 @@ class FrontServiceProvider extends ServiceProvider {
         /**
          * Load controllers
          */
-        $this->app->make('Front\Controllers\FrontController');
+        $this->app->make('Front\Controllers\Front\FrontController');
 
         /**
          * Load Views
