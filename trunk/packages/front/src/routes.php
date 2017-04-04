@@ -1,54 +1,43 @@
 <?php
 
 /**
-*VI
-*/
+ * VI
+ */
+Route::get('/categories', [
+    'as' => 'en.categories',
+    'uses' => 'Front\Controllers\FrontController@categories'
+]);
+Route::get('/layout', [
+    'as' => 'en.layout',
+    'uses' => 'Front\Controllers\FrontController@layout'
+]);
+Route::get('/news', [
+    'as' => 'en.news',
+    'uses' => 'Front\Controllers\FrontController@news'
+]);
 
-Route::get('/trang-chu', [
-            'as' => 'trang_chu',
-            'uses' => 'Front\Controllers\FrontController@index'
-        ]);
-Route::get('/gioi-thieu', [
-            'as' => 'gioi_thieu',
-            'uses' => 'Front\Controllers\FrontController@gioithieu'
-        ]);
+Route::get('/services', [
+    'as' => 'en.services',
+    'uses' => 'Front\Controllers\FrontController@services'
+]);
+
+
+Route::get('/danh-muc', [
+    'as' => 'vi.danh-muc',
+    'uses' => 'Front\Controllers\FrontController@danhmuc'
+]);
 Route::get('/tin-tuc', [
-            'as' => 'tin_tuc',
-            'uses' => 'Front\Controllers\FrontController@tintuc'
-        ]);
-
+    'as' => 'vi.tin-tuc',
+    'uses' => 'Front\Controllers\FrontController@tintuc'
+]);
+Route::get('/giao-dien', [
+    'as' => 'vi.giao-dien',
+    'uses' => 'Front\Controllers\FrontController@giaodien'
+]);
 Route::get('/dich-vu', [
-            'as' => 'tin_tuc',
-            'uses' => 'Front\Controllers\FrontController@dichvu'
-        ]);
-Route::get('/gioi-thieu/id{$id}', [
-            'as' => 'gioi_thieu',
-            'uses' => 'Front\Controllers\FrontController@gioithieu'
-        ]);
-		
-		/**
-*VI
-*/
+    'as' => 'vi.dich-vu',
+    'uses' => 'Front\Controllers\FrontController@dichvu'
+]);
 
-Route::get('/trang-chu', [
-            'as' => 'trang_chu',
-            'uses' => 'Front\Controllers\FrontController@index'
-        ]);
-Route::get('/gioi-thieu', [
-            'as' => 'gioi_thieu',
-            'uses' => 'Front\Controllers\FrontController@gioithieu'
-        ]);
-Route::get('/tin-tuc', [
-            'as' => 'tin_tuc',
-            'uses' => 'Front\Controllers\FrontController@tintuc'
-        ]);
 
-Route::get('/dich-vu', [
-            'as' => 'tin_tuc',
-            'uses' => 'Front\Controllers\FrontController@dichvu'
-        ]);
-Route::get('/gioi-thieu/id{$id}', [
-            'as' => 'gioi_thieu',
-            'uses' => 'Front\Controllers\FrontController@gioithieu'
-        ]);
 

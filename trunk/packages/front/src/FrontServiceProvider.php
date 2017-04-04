@@ -4,8 +4,7 @@ namespace Front;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Http\Request;
-
-
+use Route;
 class FrontServiceProvider extends ServiceProvider {
 
     /**
@@ -17,16 +16,20 @@ class FrontServiceProvider extends ServiceProvider {
         /**
          * Publish
          */
-         $this->publishes([
-            __DIR__.'/config/front_admin.php' => config_path('front_admin.php'),
-        ],'config');
+        $this->publishes([
+            __DIR__ . '/config/front_admin.php' => config_path('front_admin.php'),
+                ], 'config');
 
-        $this->loadViewsFrom(__DIR__ . '/views', 'front');
+        if (substr(Route::currentRouteName(), 0, 3) == "en.") {
+            $this->loadViewsFrom(__DIR__ . '/Views', 'en');
+        } else {
+            $this->loadViewsFrom(__DIR__ . '/Views', 'vi');
+        }
 
-         $this->publishes([
-                __DIR__.'/../database/migrations/' => database_path('migrations')
-            ], 'migrations');
 
+        $this->publishes([
+            __DIR__ . '/../database/migrations/' => database_path('migrations')
+                ], 'migrations');
     }
 
     /**
@@ -42,7 +45,7 @@ class FrontServiceProvider extends ServiceProvider {
          */
         $this->app->make('Front\Controllers\FrontController');
 
-         /**
+        /**
          * Load Views
          */
         $this->loadViewsFrom(__DIR__ . '/views', 'front');
@@ -51,5 +54,4 @@ class FrontServiceProvider extends ServiceProvider {
     /**
      *
      */
-
 }
