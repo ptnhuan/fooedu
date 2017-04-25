@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.type-2005 {
+  background-color: #eeeeee !important;
+}
+.type-2005 .contant {
+  float: left;
+  width: 100%;
+}
+.type-2005 .student-profile {
+  float: left;
+  width: 100%;
+  border-bottom: solid 1px #cccccc;
+  padding: 40px 0px;
+  background-color: #fff;
+}
+.type-2005 .student-profile h2 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Crete Round', serif;
+}
+.type-2005 .student-profile .color {
+  font-weight: 600;
+  font-style: italic;
+  color: #00a685;
+}
+.type-2005 .student-profile a:hover {
+  text-decoration: none;
+}
+.type-2005 .student-profile img {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.type-2005 .student-profile .btn-style:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #1fd1ad;
+}
+.type-2005 .student-profile .btn-style {
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}

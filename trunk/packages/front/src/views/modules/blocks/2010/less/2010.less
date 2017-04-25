@@ -1,0 +1,101 @@
+
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+.type-2010 {
+    @color-font-white: #fff;
+    background-color: #eeeeee !important;
+    
+    .sidebar {
+        float: left;
+        width: 100%;
+        margin: 30px 0px 30px 0px;
+        .widget:first-child {
+            margin: 0px;
+        }
+        .widget{
+            float: left;
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            border-color: #00a685;
+        }
+        .widget-course-categories {
+            border-color: #00a685 !important;
+            background-color: #0f1521;
+            border-top: solid 5px;
+            padding: 10px 0px;
+            background-image: url(../images/cate-bg.png);
+            background-position: bottom right;
+            h2 {
+                color: @color-font-white;
+                padding: 0px 20px;
+            }
+            ul {
+                list-style: none;
+                float: left;
+                width: 100%;
+                li {
+                    float: left;
+                    width: 100%;
+                    a{
+                        -webkit-transition: all 0.3s ease-in-out;
+                        display: block;
+                        padding: 10px 20px;
+                        color: @color-font-white;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        background-color: #00a685;        
+                        padding: 10px 25px;
+                        -webkit-transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+        .widget h2{
+            font-size: 24px;
+            line-height: 26px;
+            font-weight: normal;
+            font-family: 'Crete Round',serif;
+            margin: 0px 0px 15px 0px;
+        }
+    }
+}

@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2002 {
+  background-color: #eeeeee !important;
+}
+.type-2002 .profile-view {
+  margin: 0px 0px 30px 0px;
+  padding: 30px;
+}
+.type-2002 .profile-view .thumb {
+  border-radius: 100%;
+  height: 140px;
+  width: 140px;
+  border: solid 5px #9e9e9e;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.type-2002 .profile-view .thumb img {
+  border-radius: 100%;
+}
+.type-2002 .profile-view .text {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.type-2002 .profile-view .text p {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin: 25px 0px;
+}
+.type-2002 .profile-view .btn-style {
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+}
+.type-2002 .profile-box {
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.06);
+}
+.type-2002 .edit-profile {
+  overflow: hidden;
+}
+.type-2002 .edit-profile h2 {
+  font-size: 24px;
+  color: #5a5a5a;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0px;
+  padding: 30px 30px;
+}
+.type-2002 .edit-profile ul {
+  float: left;
+  margin: 0px;
+  list-style: none;
+}
+.type-2002 .edit-profile ul li {
+  float: left;
+  width: 100%;
+  border-top: solid 1px #ebebeb;
+}
+.type-2002 .edit-profile ul li a:before {
+  content: "\f101";
+  position: absolute;
+  left: 30px;
+  font-family: FontAwesome;
+  font-size: 18px;
+}
+.type-2002 .edit-profile ul li a {
+  font-size: 14px;
+  color: #bebdbd;
+  text-decoration: none;
+  padding: 25px 25px 25px 55px;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.type-2002 .edit-profile ul li a:hover {
+  padding: 25px 15px 25px 65px;
+  color: #00a685;
+}
+.type-2002 .edit-profile .logout {
+  background-color: #00a685;
+  float: left;
+  width: 100%;
+  padding: 30px 30px;
+  color: #fff;
+}
+.type-2002 .edit-profile .logout:hover {
+  background: #1fd1ad;
+}
+.type-2002 .edit-profile .logout a:before {
+  content: "\f08b";
+  position: absolute;
+  left: 0px;
+  font-family: FontAwesome;
+  font-size: 26px;
+  line-height: 26px;
+}
+.type-2002 .edit-profile .logout a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  padding: 0px 0px 0px 30px;
+}
+.type-2002 .edit-profile .input-block-level {
+  width: 100%;
+  box-sizing: border-box;
+}
+.type-2002 .editing {
+  padding: 30px;
+  margin: 0px 0px 30px 0px;
+}
+.type-2002 .editing h2 {
+  font-size: 24px;
+  color: #5a5a5a;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0px 0px 20px 0px;
+}
+.type-2002 .editing ul {
+  list-style: none;
+  margin: 0px 0px 0px -4%;
+}
+.type-2002 .editing ul li {
+  float: left;
+  width: 46%;
+  margin: 0px 0px 0px 4%;
+}
+.type-2002 .editing label {
+  color: #585858;
+  font-size: 14px;
+  margin: 10px 0px 10px 0px;
+  display: inline-block;
+  font-weight: normal;
+}
+.type-2002 .editing input[type="text"]:focus,
+.type-2002 .editing input[type="password"]:focus,
+.type-2002 .editing textArea:focus {
+  border-color: #00a685;
+  outline: 0;
+}
+.type-2002 .editing select:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.type-2002 .editing input[type="text"],
+.type-2002 .editing input[type="password"] {
+  border-radius: 4px;
+  min-height: 40px;
+  border-color: #eaeaea;
+  box-shadow: none;
+  color: #bebdbd;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.type-2002 .editing select option:hover {
+  background-color: #00ccff;
+}
+.type-2002 .editing select {
+  border-radius: 4px;
+  min-height: 40px;
+  border-color: #eaeaea;
+  box-shadow: none;
+  color: #bebdbd;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-2002 .editing ul li.fw {
+  width: 96%;
+}
+.type-2002 .editing textarea {
+  height: 200px;
+  resize: none;
+  min-height: 40px;
+  border-color: #eaeaea;
+  box-shadow: none;
+  color: #bebdbd;
+  font-family: 'Open Sans', sans-serif;
+  padding: 4px 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.type-2002 .editing .btn-style {
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+.type-2002 .editing table {
+  width: 100%;
+  border: solid 1px #f3f3f3;
+}
+.type-2002 .editing table tr td {
+  text-align: center;
+  border: solid 1px #f3f3f3;
+  padding: 15px 20px;
+  width: 20%;
+}
+.type-2002 .editing table thead {
+  background-color: #00a685;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.type-2002 .editing table tr td:first-child {
+  text-align: left;
+  width: 60%;
+}
+.type-2002 .editing table thead tr td {
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 15px 20px;
+}
+.type-2002 .editing table tbody tr {
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.type-2002 .editing table tbody tr:hover {
+  background-color: #f3f3f3;
+}
+.type-2002 .editing table tr td:first-child {
+  text-align: left;
+  width: 60%;
+}
+.type-2002 .editing table tbody tr td {
+  border: solid 1px #f3f3f3;
+  padding: 15px 20px;
+}
+.type-2002 .editing table tbody tr td a {
+  text-decoration: none;
+  color: #00a685;
+}
+.type-2002 .editing table tr td:first-child {
+  text-align: left;
+  width: 60%;
+}
+.type-2002 .editing table tfoot tr td {
+  color: #00a685;
+  border: none;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.type-2002 .editing .input-block-level {
+  width: 100%;
+  box-sizing: border-box;
+}
+.type-2002 .btn-style:hover {
+  text-decoration: none;
+  background: #1fd1ad;
+}
+@media (max-width: 480px) {
+  .type-2002 .editing {
+    padding: 15px;
+  }
+  .type-2002 .editing ul li {
+    width: 100%;
+    margin: 0px;
+  }
+  .type-2002 .editing label {
+    color: #585858;
+    font-size: 14px;
+    margin: 0px 0px 10px 10px;
+    display: inline-block;
+  }
+  .type-2002 .editing input[type="text"],
+  .type-2002 input[type="password"],
+  .type-2002 textArea,
+  .type-2002 select {
+    margin: 0px 0px 10px 5px;
+  }
+  .type-2002 .editing table thead tr td {
+    padding: 10px 10px !important;
+    font-size: 14px;
+  }
+  .type-2002 .editing table tr td {
+    padding: 5px 10px !important;
+    font-size: 12px;
+  }
+  .type-2002 .editing table tr td {
+    padding: 5px 10px !important;
+  }
+}

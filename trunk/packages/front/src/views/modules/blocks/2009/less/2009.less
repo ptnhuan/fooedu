@@ -1,0 +1,69 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+.type-2009 {
+    @color-font-white: #fff;
+    @margin-font-page: 0px;
+
+    .fix{
+        width: 100%;
+    }
+    .page-heading{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: content-box;
+        background-image: url('../images/page-heading-bg.jpg');
+        background-size: cover;
+        padding: 30px 0px;
+        h2 {
+            color: @color-font-white;
+            font-size: 24px;
+            margin: @margin-font-page;
+            line-height: 40px;
+        }
+        p{
+            color: @color-font-white;
+            margin: @margin-font-page;
+        }
+
+    }
+}

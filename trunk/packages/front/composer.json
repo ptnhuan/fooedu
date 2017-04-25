@@ -1,13 +1,4 @@
 {
-    "name": "group_h_works/front",
-    "description": "",
-    "authors": [
-        {
-            "name": "Group H",
-            "email": "GroupH@gmail.com"
-        }
-    ],
-    "require": {
-       
-    }
+    "name": "ie/front",
+    "require": {}
 }

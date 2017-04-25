@@ -1,0 +1,251 @@
+.type-2030{
+    background-color: #eeeeee;
+    font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
+    .event-page{
+        .thumb img {
+            max-width: 100%;
+        }
+        a:-webkit-any-link {
+            cursor: auto;
+        }
+        .admin .thumb {
+            float: left;
+            border: solid 1px #d4d1d1;
+        }
+        .social-icons a {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .admin .social-icons{
+            float: right;
+        }
+        .fa-facebook:before {
+            content: "\f09a";
+        }
+        .fa-linkedin:before {
+            content: "\f0e1";
+        }
+        .fa-dribbble:before {
+            content: "\f17d";
+        }
+        .fa-twitter:before {
+            content: "\f099";
+        }
+        .fa-google-plus:before {
+            content: "\f0d5";
+        }
+        .admin .social-icons{
+            a{
+                background-color: @color_green;
+            }
+            a:hover{
+                background-color: @color_hover;
+            }
+        } 
+ 
+        .admin {
+            float: left;
+            width: 100%;
+            padding: 12px;
+            background-color: #FFF;
+            border: solid 1px #d4d1d1;
+            margin: 20px 0px 30px 0px;
+        }
+        .admin .thumb img {
+            width: 100%;
+        }
+        .admin h2{
+
+            font-weight: normal;
+            font-size: 24px;
+            margin: 0px;
+            line-height: 24px;
+            -webkit-margin-before: 0.83em;
+            -webkit-margin-after: 0.83em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            display: block;
+        }
+        .admin h2 a{
+            color: @color_green;
+            text-decoration: none;
+        }
+        .admin p {
+            margin: 0;
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            padding: 0px;
+            outline: none;
+            margin-top: -15px;
+            -webkit-box-sizing: border-box;
+        }
+        .admin .text {
+            position: relative;
+            margin-top: -20px;
+        }
+        .profession {
+            font-family: 'Crete Round',serif;
+            font-weight: bold;
+        }
+        .leave-reply {
+            float: left;
+            width: 100%;
+
+        }
+        .leave-reply h2 {
+            font-size: 18px;
+            font-family: 'Crete Round',serif;
+            line-height: 22px;
+            margin: 0px 0px 15px 0px;
+            font-weight: normal;
+        }
+        form {
+            margin: 0 0 20px;
+            display: block;
+        }
+        .leave-reply input[type="text"], .leave-reply textarea {
+            min-height: 40px;
+            width: 100%;
+            background-color: #fff;
+            color: #707070;
+            border-radius: 0px;
+            margin: 0px 0px 20px 0px;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+            transition: border linear 0.2s,box-shadow linear 0.2s;
+            border: 1px solid #cccccc;
+            padding: 4px 6px;
+            
+        }
+        .leave-reply input[type="text"]:focus, .leave-reply textarea:focus {
+            outline: 1px solid @color_green;     
+        }
+        .leave-reply textarea {
+            height: 215px;
+            margin-left: 0;
+            width: 100%;
+        }
+        .leave-reply textarea {
+            resize: none;
+        }
+        .btn-style{
+            -webkit-transition: all 0.3s ease-in-out;
+            background-color: @color_green;
+            display: inline-block;
+            border-radius: 5px;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+        }
+        .btn-style:hover{
+            background-color: @color_hover;
+        }
+        .campaign {
+            float: left;
+            width: 100%;
+            padding: 50px 30px;
+            background-color: #0f1521;
+            text-align: center;
+            margin: 38px 0px 0px 0px;
+        }
+        .campaign h4, .campaign p {
+            font-family: 'Crete Round',serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin: 0px 0px 30px 0px;
+            font-weight: normal;
+            color: #fff;
+        }
+        .campaign .social-icons a {
+            height: 50px;
+            width: 50px;
+            background-color: #FFF;
+            color: #000;
+            text-align: center;
+            padding: 15px 0px;
+            font-size: 20px;
+            border-radius: 100%;
+            margin: 3px;
+        }
+        .social-icons a {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            text-decoration: none;
+        }
+        .campaign .social-icons a:hover{
+            background-color: @color_green;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .admin .text {
+        margin-left: -15px;
+    }
+}
+@media (min-width: 480px) and (max-width: 1199px){
+    .admin .text{
+        margin-left: 15px;
+    }
+}
+@media (min-width: 768px){
+    .text-content{
+        width: 31% !important;
+    }
+    .row-fluid [class*="text-content"]:first-child {
+        margin-left: 0;
+    }
+    .row-fluid [class*="text-content"] {
+        margin-left: 3.5%;
+    }
+}
+@media (max-width: 767px) and (min-width: 481px){
+    .tablet-2 {
+        width: 16.66666667% !important;
+    }
+    .tablet-10 {
+        width: 83.33333333% !important;
+    }
+}
+@media (max-width: 480px){
+    .education-module-5{
+
+        p {
+            padding-top: 10px;
+        }
+        .admin .thumb img {
+            width: 500px;
+        }
+        .admin .social-icons {
+            position: static;
+            margin: 10px 0px 10px 0px;
+            width: 100%;
+        }
+        .admin .text{
+            margin-left: -170px;
+        }
+        .leave-reply input[type="text"], .leave-reply textarea{
+            width: 100%;
+        }
+        .event-page .leave-reply textarea{
+            width: 100%;
+        }
+    }
+    .thumb{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .social-icons{
+        float: left !important;
+    }
+}

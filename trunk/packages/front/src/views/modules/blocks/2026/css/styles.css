@@ -1,0 +1,22 @@
+.education-module-1 {
+  background-color: #eeeeee !important;
+}
+.education-module-1 .page-heading {
+  float: left;
+  width: 100%;
+  background-image: url('../images/page-heading-bg.jpg');
+  background-size: cover;
+  padding: 36px 0px;
+  margin: 10px 0px 100px 0px;
+}
+.education-module-1 .page-heading h2 {
+  color: #fff;
+  font-size: 21px;
+  margin: 0px;
+  font-weight: bold;
+}
+.education-module-1 .page-heading p {
+  color: #fff;
+  margin: 0px;
+  padding-top: 5px;
+}

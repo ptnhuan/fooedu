@@ -1,1 +1,26 @@
-en layout
+@extends('front::en.layout.masterpage.masterpage')
+
+@section('head')
+    @include('front::vi.trang-chu.masterpage.head')
+@stop
+
+
+
+@section('2034-content')
+    @include('front::modules.2034.2034-content')
+@stop
+@section('2026-content')
+    @include('front::modules.2026.2026-content')
+@stop
+@section('2000-content')
+    @include('front::modules.2000.2000-content')
+@stop
+
+
+
+@section('2006-content')
+    @include('front::modules.2006.2006-content')
+@stop
+@section('2044-content')
+    @include('front::modules.2044.2044-content')
+@stop

@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.type-2001 {
+  background-color: #eeeeee !important;
+}
+.type-2001 .teacher-profile {
+  float: left;
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+}
+.type-2001 .teacher-profile .bio {
+  background-color: #FFF;
+  float: left;
+  width: 100%;
+  padding: 30px;
+  min-height: 594px;
+}
+.type-2001 .teacher-profile .bio h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0px 0px 15px 0px;
+  font-weight: normal;
+  font-family: 'Crete Round', serif;
+}
+.type-2001 .teacher-profile .profile {
+  float: left;
+  width: 100%;
+  background-color: #0f1521;
+  position: relative;
+  min-height: 580px;
+  padding: 0px 0px 80px 0px;
+}
+.type-2001 .teacher-profile .profile .detail {
+  color: #00a685;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  margin: 0px 0px 20px 0px;
+}
+.type-2001 .teacher-profile .profile .title {
+  text-align: center;
+  font-family: 'Crete Round', serif;
+  color: #fff;
+}
+.type-2001 .teacher-profile .profile .title h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px 0px 10px 0px;
+}
+.type-2001 .teacher-profile .profile .title p {
+  color: #00a685;
+  font-size: 16px;
+}
+.type-2001 .teacher-profile .profile .detail table tr td {
+  padding: 5px 10px;
+  width: 50%;
+}
+.type-2001 .teacher-profile .profile .detail table tr td:first-child {
+  color: #fff;
+}
+.type-2001 .teacher-profile .profile .thumb {
+  position: absolute;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  height: 158px;
+  width: 158px;
+  overflow: hidden;
+  margin: auto;
+  border: solid 3px #fff;
+  height: 120px;
+  width: 120px;
+}
+.type-2001 .teacher-profile .profile .thumb img {
+  width: 100%;
+  -webkit-border-radius: 100%;
+}
+.type-2001 .teacher-profile .profile-back {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 40px 0px;
+}
+.type-2001 .teacher-profile .profile-back img {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.type-2001 .teacher-profile .followers {
+  background-color: #00a685;
+  float: left;
+  width: 100%;
+  padding: 20px 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.type-2001 .teacher-profile .followers i {
+  font-size: 30px;
+  margin: 15px 30px 0 0;
+  float: left;
+}
+.type-2001 .teacher-profile .followers a {
+  font-size: 16px;
+  color: #fff;
+  padding: 2px 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+.type-2001 .teacher-profile .followers span {
+  border-bottom: 1px solid #fff;
+  display: block;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 0px 5px 0px;
+  font-weight: bold;
+}
+@media (max-width: 360px) {
+  .type-2001 .teacher-profile .followers a {
+    font-size: 14px;
+  }
+}

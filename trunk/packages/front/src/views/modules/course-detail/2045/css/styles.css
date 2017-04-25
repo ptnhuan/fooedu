@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.type-2045 .course-detail {
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #00a685;
+}
+.type-2045 .course-detail .banner {
+  position: relative;
+  margin: 0 auto 0px;
+  width: 83%;
+  float: right;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.type-2045 .course-detail .banner img {
+  width: 100%;
+}
+.type-2045 .course-detail #banner_pager {
+  float: left;
+  width: 11.7%;
+}
+.type-2045 .course-detail .carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.type-2045 .course-detail .carousel-fade .carousel-inner .item,
+.type-2045 .course-detail .carousel-fade .carousel-inner .active.left,
+.type-2045 .course-detail .carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.type-2045 .course-detail .carousel-fade .carousel-inner .active,
+.type-2045 .course-detail .carousel-fade .carousel-inner .next.left,
+.type-2045 .course-detail .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.type-2045 .course-detail .carousel-fade .carousel-inner .next,
+.type-2045 .course-detail .carousel-fade .carousel-inner .prev,
+.type-2045 .course-detail .carousel-fade .carousel-inner .active.left,
+.type-2045 .course-detail .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0,0,0);
+}
+.type-2045 .course-detail .carousel-fade .carousel-control {
+  z-index: 2;
+}
+.type-2045 .course-detail #bx_pager {
+  float: left !important;
+  width: 11.7%;
+}
+.type-2045 .course-detail #bx_pager .padding-none {
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+}
+.type-2045 .course-detail #bx_pager a {
+  padding: 4px;
+  display: block;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.type-2045 .course-detail #bx_pager a img {
+  width: 100%;
+}
+.type-2045 .course-detail .text {
+  float: left;
+  width: 100%;
+  color: #0f1521;
+}
+.type-2045 .course-detail .text h5,
+.type-2045 .course-detail .text h2 {
+  font-size: 30px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  margin: 0px 0px 15px 0px;
+}
+.type-2045 .course-detail .text h5 {
+  font-size: 16px;
+}
+.type-2045 .course-detail .text .reviews {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.type-2045 .course-detail .text .reviews a {
+  font-size: 16px;
+  color: #000;
+}
+.type-2045 .course-detail .text ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 30px 0px;
+}
+.type-2045 .course-detail .text ul li {
+  float: left;
+  width: 100%;
+  margin: 3px 0px;
+}
+.type-2045 .course-detail .text ul li a {
+  color: #0f1521;
+  font-style: italic;
+}
+.type-2045 .course-detail .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+  float: right;
+}
+.type-2045 .course-detail .rating span {
+  font-size: 30px;
+  color: #ffd200;
+  width: auto;
+  display: inline-block;
+  position: relative;
+}
+.type-2045 .course-detail .rating span:hover:before,
+.type-2045 .course-detail .rating span:hover~span:before {
+  content: "\2605";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.type-2045 .course-detail .course-category {
+  text-align: right;
+}
+.type-2045 .course-detail .course-category a {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+.type-2045 .course-detail .course-category h3 {
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  color: #0f1521;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media (min-width: 980px) {
+  .type-2045 .course-detail .padding-none:first-child {
+    margin: 0px;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .type-2045 .course-detail #bx_pager a {
+    float: left;
+  }
+}
+@media (max-width: 979px) {
+  .type-2045 .course-detail .banner {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+  .type-2045 .course-detail #bx_pager {
+    width: 100%;
+    float: left;
+  }
+  .type-2045 .course-detail #bx_pager a:first-child {
+    margin: 0px 2px;
+  }
+}
+@media (max-width: 767px) {
+  .type-2045 .course-detail #bx_pager a {
+    float: left;
+  }
+}

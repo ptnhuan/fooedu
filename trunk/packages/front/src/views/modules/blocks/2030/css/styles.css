@@ -1,0 +1,195 @@
+.education-module-5 {
+  background-color: #eeeeee !important;
+}
+.education-module-5 .thumb img {
+  max-width: 100%;
+}
+.education-module-5 a:-webkit-any-link {
+  cursor: auto;
+}
+.education-module-5 .admin .thumb {
+  float: left;
+  border: solid 1px #d4d1d1;
+}
+.education-module-5 .social-icons a {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: #fff;
+}
+.education-module-5 .admin .social-icons {
+  float: right;
+}
+.education-module-5 .fa-facebook:before {
+  content: "\f09a";
+}
+.education-module-5 .fa-linkedin:before {
+  content: "\f0e1";
+}
+.education-module-5 .fa-dribbble:before {
+  content: "\f17d";
+}
+.education-module-5 .fa-twitter:before {
+  content: "\f099";
+}
+.education-module-5 .fa-google-plus:before {
+  content: "\f0d5";
+}
+.education-module-5 .admin .social-icons a {
+  background-color: #00a685;
+}
+.education-module-5 .admin {
+  float: left;
+  width: 100%;
+  padding: 12px;
+  background-color: #FFF;
+  border: solid 1px #d4d1d1;
+  margin: 20px 0px 30px 0px;
+}
+.education-module-5 .admin .thumb img {
+  width: 100%;
+}
+.education-module-5 .admin h2 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0px;
+  line-height: 24px;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  display: block;
+}
+.education-module-5 .admin h2 a {
+  color: #00a685;
+  text-decoration: none;
+}
+.education-module-5 .admin p {
+  margin: 0;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 0px;
+  outline: none;
+  margin-top: -15px;
+  -webkit-box-sizing: border-box;
+}
+.education-module-5 .admin .text {
+  padding: 0px 0px 0px 170px;
+  position: relative;
+  margin-top: -20px;
+}
+.education-module-5 .profession {
+  font-family: 'Crete Round', serif;
+  font-weight: bold;
+}
+.education-module-5 .leave-reply {
+  float: left;
+  width: 100%;
+}
+.education-module-5 .leave-reply h2 {
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  line-height: 22px;
+  margin: 0px 0px 15px 0px;
+  font-weight: normal;
+}
+.education-module-5 form {
+  margin: 0 0 20px;
+  display: block;
+}
+.education-module-5 .leave-reply input[type="text"],
+.education-module-5 .leave-reply textarea {
+  min-height: 40px;
+  width: 230px;
+  background-color: #fff;
+  color: #707070;
+  border-radius: 0px;
+  margin: 0px 0px 20px -15px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  border: 1px solid #cccccc;
+}
+.education-module-5 .event-page .leave-reply textarea {
+  height: 215px;
+  width: 730px;
+  margin-left: 0;
+}
+.education-module-5 .leave-reply textarea {
+  resize: none;
+}
+.education-module-5 .btn-style {
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.education-module-5 .campaign {
+  float: left;
+  width: 100%;
+  padding: 50px 30px;
+  background-color: #0f1521;
+  text-align: center;
+  margin: 38px 0px 0px 0px;
+}
+.education-module-5 .campaign h4,
+.education-module-5 .campaign p {
+  font-family: 'Crete Round', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0px 0px 30px 0px;
+  font-weight: normal;
+  color: #fff;
+}
+.education-module-5 .campaign .social-icons a {
+  height: 50px;
+  width: 50px;
+  background-color: #FFF;
+  color: #000;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+  border-radius: 100%;
+  margin: 3px;
+}
+.education-module-5 .social-icons a {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  text-decoration: none;
+}
+.education-module-5 .campaign .social-icons a:hover {
+  background-color: #00a685;
+}
+@media (max-width: 480px) {
+  .education-module-5 p {
+    padding-top: 10px;
+  }
+  .education-module-5 .admin .thumb img {
+    width: 500px;
+  }
+  .education-module-5 .admin .social-icons {
+    position: static;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+  }
+  .education-module-5 .admin .text {
+    margin-left: -170px;
+  }
+  .education-module-5 .leave-reply input[type="text"],
+  .education-module-5 .leave-reply textarea {
+    width: 100%;
+  }
+  .education-module-5 .event-page .leave-reply textarea {
+    width: 100%;
+  }
+}

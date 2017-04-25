@@ -1,0 +1,172 @@
+
+.type-2022{
+    font-family: 'Crete Round',serif;
+    @color_green: #00a685;
+    
+    background-color: @color_green;
+    float: left;
+    width: 100%;
+    padding: 40px 0px;
+    .bx-wrapper {
+        float: right;
+        padding: 4px;
+        background-color: #fff;
+        border-radius: 5px;
+        list-style: none;
+        width: 465px;
+        display: list-item;
+        z-index: 50;
+        position: relative;
+        margin: 0 auto 0px;
+        .bx-viewport {
+            left: 0px;
+            -webkit-box-sizing: border-box;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+
+        }            
+        .bx-loading {
+            min-height: 50px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2000;
+        }
+        .bx-controls-direction a {
+            position: absolute;
+            top: 50%;
+            margin-top: -25px;
+            outline: 0;
+            width: 50px;
+            height: 60px;
+            text-indent: -9999px;
+            z-index: 9999;
+
+        }
+        .bx-prev {
+            left: 0px;
+            background: url(../img/controls.png) no-repeat right;
+            opacity: 0.4;
+        }
+        .bx-next {
+            right: 0px;
+            background: url(../img/controls.png) no-repeat left;
+            opacity: 0.4;
+        }
+        img {
+            width: 100%;
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+    #bx-pager{
+        float: left;
+        width: 11.7%;
+        a:first-child {margin: 0px;}
+        a:hover{cursor: pointer;}
+        a {
+            padding: 4px;
+            margin: 14px 0px 0px 0px;
+            background-color: #fff;
+            border-radius: 5px;
+            display: block;
+        }
+        img:hover{cursor: pointer;}
+        a img {width: 100%;}
+    }
+    .text {
+        float: left;
+        width: 100%;
+        color: #0f1521;
+        h2{
+            font-size: 30px;
+
+            font-weight: normal;
+            margin: 0px 0px 15px 0px;
+        }
+        h5 {
+            font-size: 16px;
+            font-family: 'Crete Round',serif;
+            font-weight: normal;
+            margin: 0px 0px 15px 0px;
+        }
+        .reviews {
+            float: left;
+            width: 100%;
+            margin: 0px 0px 15px 0px;
+            a {
+                font-size: 16px;
+                color: #000;
+            }
+            .rating {
+                float: right;
+                unicode-bidi: bidi-override;
+                direction: rtl;
+                display: inline-block;
+            }
+            .rating>span {
+                font-size: 30px;
+                color: #ffd200;
+                width: auto;
+            }
+            .rating>span {
+                display: inline-block;
+                position: relative;
+            }
+        }
+        ul {
+            float: left;
+            width: 100%;
+            list-style: none;
+            margin: 30px -40px;
+        }
+        ul li a:hover { text-decoration: none;}
+        ul li a {
+            color: #0f1521;
+            font-style: italic;
+        }
+    }
+    .course-category {
+        text-align: right;
+        a {
+            font-size: 14px;
+            color: #fff;
+            font-style: italic;
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 18px;
+            font-family: 'Crete Round',serif;
+            color: #0f1521;
+            margin: 0px;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+    }
+}
+@media (max-width: 1200px) and (min-width: 980px){
+    .bx-wrapper{
+        width: 80% !important;
+    }
+}
+@media (max-width: 979px){
+    #bx-pager {
+        width: 100% !important;
+        float: left;
+        a {
+            float: left;
+            width: 15.5%;
+            margin: 14px 2px !important;
+        }
+    }
+}
+@media (max-width: 768px){
+    .bx-wrapper {
+        width: 100% !important;
+        margin: 0px 0px 20px 0px;
+    }
+}

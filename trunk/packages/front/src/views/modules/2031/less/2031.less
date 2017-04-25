@@ -1,0 +1,211 @@
+.bg-color{
+    background-color: #eeeeee;
+}
+.type-2031{
+    float: left;
+    width: 100%;
+    font-family: 'Crete Round',serif;
+    @color_green: #00a685;
+    
+    .course {
+        margin: 15px 15px 0px 0px;
+        background-color: #fff;
+        border-bottom: solid 2px rgba(0,0,0,0.1);
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .featured-courses h2 {
+        font-size: 24px;
+        font-family: 'Crete Round',serif;
+        font-weight: normal;
+        margin: 30px 0 15px 0;
+    }
+    .course .rating>span {
+        color: #ffd200;
+        width: auto;
+    }
+    .rating>span {
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+    }
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        display: inline-block;
+    }
+    .course{
+        .thumb {
+            float: left;
+            width: 100%;
+            position: relative;
+            img{
+                transition: all 0.3s ease-in-out;
+                width: 100%;
+            }
+        }
+        .price{
+            transition: all 0.3s ease-in-out;
+            background-color: @color_green;
+            border-radius: 100%;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+            color: #fff;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            opacity: 0;
+            line-height: 40px;
+            visibility: hidden;
+            span {
+                font-size: 30px;
+                vertical-align: top;
+                line-height: 30px;
+            }
+        }
+        .text {
+            float: left;
+            width: 100%;
+            div {
+                float: left;
+                width: 100%;
+            }
+            h4 {
+                font-size: 18px;
+                font-family: 'Crete Round',serif;
+                color: @color_green;
+                font-weight: normal;
+                display: inline-block;
+            }
+        }
+        .header{
+            padding: 0px 10px;
+        }
+        .course-name{
+            padding: 0px 10px;
+            p {
+                display: inline-block;
+            }
+            span {
+                float: right;
+                color: @color_green;
+            }
+        }
+        div.rating {
+            float: right;
+            width: auto;
+            margin: 8px 0px;
+        }
+        .rating>span {
+            color: #ffd200;
+            width: auto;
+        }
+        .course-detail-btn {
+            margin: 10px 0px 0px 0px;
+            border-top: solid 1px rgba(0,0,0,0.1);
+            a:first-child {
+                border: none;
+            }
+            a{
+                transition: all 0.3s ease-in-out;
+                width: 50%;
+                padding: 15px 15px;
+                color: #7c7c7c;
+                font-size: 14px;
+                text-align: center;
+                display: block;
+                box-sizing: border-box;
+                float: left;
+                border-left: 1px #fff solid;
+            }
+            a:hover{
+                background-color: @color_green;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    } 
+    .course:hover{
+        img{
+            opacity: 0.5;
+        }
+        .price {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .pagination {
+        margin: 40px 0;
+        float: left;
+        width: 100%;
+        ul {
+            display: inline-block;
+            margin-bottom: 0;
+            margin-left: 0;
+            border-radius: 4px;
+
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+        }
+        ul>li {
+            display: inline;
+        }
+        li {
+            line-height: 20px;
+        }
+        ul>li:first-child>a{
+            border-left-width: 1px;
+        }
+
+        ul>li>a{
+            float: left;
+            padding: 4px 12px;
+            line-height: 20px;
+            text-decoration: none;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            color: @color_green;
+        }
+        ul>li>a:hover{
+            background-color: @color_green;
+        }
+        ul>li>a:hover{
+            color: #ffffff;
+        }
+    }
+}
+@media (min-width: 993px){
+    .price{
+        height: 90px;
+        width: 90px;
+        padding: 25px 0;
+        font-size: 40px;
+    }
+}
+@media (max-width: 992px){
+    .price{
+        height: 70px;
+        width: 70px;
+        padding: 15px 0;
+        font-size: 30px;
+    }
+}
+@media (min-width: 481px){
+    .course:hover{
+        .price {
+            top: -15px;
+            left: -15px;
+        }
+    }
+}
+@media (max-width: 480px){
+    .course:hover{
+        .price {
+            top: 0px;
+            left: 0px;
+        }
+    }
+}

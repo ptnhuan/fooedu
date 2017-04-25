@@ -30,5 +30,8 @@ class FrontController extends Controller {
     public function danhmuc(){
         return view('front::vi.categories.index');
     }
+     public function trangchu(){
+        return view('front::vi.trang-chu.index');
+    }
    
 }

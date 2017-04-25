@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.zaro .course-detail {
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  margin: 0px 0px 30px 0px;
+  background-color: #00a685;
+}
+.zaro .course-detail .banner {
+  position: relative;
+  margin: 0 auto 0px;
+  width: 83%;
+  float: right;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.zaro .course-detail .banner img {
+  width: 100%;
+}
+.zaro .course-detail #banner_pager {
+  float: left;
+  width: 11.7%;
+}
+.zaro .course-detail .carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.zaro .course-detail .carousel-fade .carousel-inner .item,
+.zaro .course-detail .carousel-fade .carousel-inner .active.left,
+.zaro .course-detail .carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.zaro .course-detail .carousel-fade .carousel-inner .active,
+.zaro .course-detail .carousel-fade .carousel-inner .next.left,
+.zaro .course-detail .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.zaro .course-detail .carousel-fade .carousel-inner .next,
+.zaro .course-detail .carousel-fade .carousel-inner .prev,
+.zaro .course-detail .carousel-fade .carousel-inner .active.left,
+.zaro .course-detail .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0,0,0);
+}
+.zaro .course-detail .carousel-fade .carousel-control {
+  z-index: 2;
+}
+.zaro .course-detail #bx_pager {
+  float: left !important;
+  width: 11.7%;
+}
+.zaro .course-detail #bx_pager .padding-none {
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+}
+.zaro .course-detail #bx_pager a {
+  padding: 4px;
+  display: block;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.zaro .course-detail #bx_pager a img {
+  width: 100%;
+}
+.zaro .course-detail .text {
+  float: left;
+  width: 100%;
+  color: #0f1521;
+}
+.zaro .course-detail .text h5,
+.zaro .course-detail .text h2 {
+  font-size: 30px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  margin: 0px 0px 15px 0px;
+}
+.zaro .course-detail .text h5 {
+  font-size: 16px;
+}
+.zaro .course-detail .text .reviews {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.zaro .course-detail .text .reviews a {
+  font-size: 16px;
+  color: #000;
+}
+.zaro .course-detail .text ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 30px 0px;
+}
+.zaro .course-detail .text ul li {
+  float: left;
+  width: 100%;
+  margin: 3px 0px;
+}
+.zaro .course-detail .text ul li a {
+  color: #0f1521;
+  font-style: italic;
+}
+.zaro .course-detail .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+  float: right;
+}
+.zaro .course-detail .rating span {
+  font-size: 30px;
+  color: #ffd200;
+  width: auto;
+  display: inline-block;
+  position: relative;
+}
+.zaro .course-detail .rating span:hover:before,
+.zaro .course-detail .rating span:hover~span:before {
+  content: "\2605";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.zaro .course-detail .course-category {
+  text-align: right;
+}
+.zaro .course-detail .course-category a {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+.zaro .course-detail .course-category h3 {
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  color: #0f1521;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+@media (min-width: 980px) {
+  .zaro .course-detail .padding-none:first-child {
+    margin: 0px;
+  }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .zaro .course-detail #bx_pager a {
+    float: left;
+  }
+}
+@media (max-width: 979px) {
+  .zaro .course-detail .banner {
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+  }
+  .zaro .course-detail #bx_pager {
+    width: 100%;
+    float: left;
+  }
+  .zaro .course-detail #bx_pager a:first-child {
+    margin: 0px 2px;
+  }
+}
+@media (max-width: 767px) {
+  .zaro .course-detail #bx_pager a {
+    float: left;
+  }
+}

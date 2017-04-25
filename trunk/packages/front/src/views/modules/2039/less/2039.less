@@ -1,0 +1,179 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+.type-2039{
+    background: #f7f7f7;
+    @color_green: #00a685;
+    .content-tab{
+        background: #fff;
+        border-top: 1px solid #ddd; 
+    }
+    .sec-header {
+        text-align: center;           
+        width: 100%;
+        padding: 40px 0px 40px 0px;
+        p {
+
+            font-weight: 600;
+            font-style: italic;
+            position: relative;
+            color: @color_green;
+        }
+        h2{
+
+            font-weight: 600;
+        }
+        span {
+            height: 10px;
+            width: 10px;
+            background-color: #aaaaaa;
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+    }
+    .nav-tabs{
+        border-bottom: none;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        color: @color_green;;
+    }
+    .ie-tab-fix{
+        text-align: center;
+        li{
+            text-align: center;
+            margin:0;
+            display: inline-block;
+            float: none;
+            a{
+                font-size: 16px;
+                color: #d3d3d3;
+                i{
+                    font-size: 43px;
+                }
+            }
+            p{
+                margin: 0;
+            }
+            a:hover{
+                background: #fff;
+            }
+        } 
+
+
+        li.active {
+            a{
+                color: @color_green;;
+            }
+        }
+        li.active>a:hower {
+            color: @color_green;;
+        }
+
+    }
+    .ie-content-fix{
+        li {
+            margin-bottom: 30px;
+            margin-top: 30px;
+            list-style: none;
+        }
+        .thumb-content {
+            img{
+                border-radius: 100%;
+                transition: border-radius 0.3s; //mới thêm
+            }
+            img:hover{
+                border-radius: 20%;
+            }
+        }
+        .text{
+
+            h4{
+                color: @color_green;;
+                font-size: 20px;
+                line-height: 20px;
+                font-family: 'Crete Round',serif;
+                font-weight: normal;
+                margin: 10px 0;
+            }
+            p{
+                margin: 0 0 10px;
+            }
+            span{
+                font-size: 30px;
+                color: @color_green;;
+                line-height: 20px;
+                font-family: 'Crete Round',serif;
+                font-weight: normal;
+                margin: 10px 0;
+            }
+        }
+    }
+    @media (min-width: 1200px){
+        .ie-tab-fix li a{padding: 15px 22px;}
+    }
+    @media (max-width: 1199px){
+        .ie-tab-fix li a{padding: 15px;}
+    }
+    @media(min-width:992px){
+        .thumb-content img{
+            float:left;           
+        }
+        .ie-content-fix .text{
+            padding: 0px 0px 0px 153px;
+            text-align: left;
+        }
+    }
+    @media (max-width: 991px){
+        .col-12{
+            text-align: center;
+        }
+    }
+    @media(max-width:480px){
+        li{
+            width:100%;
+            i{
+                font-size: 20px !important;
+                float: left;
+            }
+        }
+
+    }
+}

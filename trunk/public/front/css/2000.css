@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.type-2000 {
+  background-color: #eeeeee !important;
+  padding: 0px 20px;
+}
+.type-2000 .error {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: 'Crete Round', serif;
+  padding: 0px 0px 100px 0px;
+}
+.type-2000 .error .error-404 {
+  font-size: 400px;
+  line-height: 400px;
+  margin: 0px 0px 50px 0px;
+  color: #00a685;
+}
+.type-2000 .error .ohh {
+  font-size: 72px;
+  line-height: normal;
+}
+.type-2000 .error .away {
+  font-size: 36px;
+}
+.type-2000 .error img {
+  margin-top: 55px;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+.type-2000 .error .color {
+  color: #00a685;
+}
+@media (max-width: 768px) {
+  .type-2000 .error .ohh {
+    font-size: 32px;
+  }
+  .type-2000 .error .away {
+    font-size: 20px;
+  }
+  .type-2000 .error .error-404 {
+    font-size: 300px;
+    line-height: 300px;
+  }
+  .type-2000 .error .error-404 img {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 568px) {
+  .type-2000 .error .ohh {
+    font-size: 22px;
+  }
+  .type-2000 .error .error-404 {
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 30px;
+  }
+  .type-2000 .error .error-404 > span {
+    width: 100px;
+    display: inline-block;
+  }
+  .type-2000 .error .error-404 img {
+    margin-top: 0px;
+  }
+}

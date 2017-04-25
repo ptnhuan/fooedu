@@ -1,0 +1,55 @@
+.bg-color{
+    background-color:#E6E6FA;
+}
+.type-2019{
+    font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
+    .sidebar{
+        float:left;
+        width:100%;
+        .widget{
+            margin:30px 0px 0px 0px;float:left;
+            width:100%;
+            box-sizing:border-box
+                ;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;
+        }
+        .widget-twitter{
+            background-color:#0f1521;
+            padding:20px;
+        }
+    }
+    .widget-twitter h2{color:#fff; margin-top: 10px;}
+    .widget-twitter ul{
+        list-style:none;
+        float:left;width:100%;
+        padding: 0;
+    }
+    .widget-twitter ul li{
+        float:left;width:100%;
+        padding:0px 0px 0px 30px;position:relative;
+        margin:20px 0px 0px 0px;
+    }
+    .widget-twitter ul li:first-child{
+        margin:0px;}
+    .widget-twitter ul li:before{
+        content:"\f099";position:absolute;
+        left:0px;top:0px;
+        font-family:FontAwesome;font-size:25px;
+        color: @color_green;
+    }
+    .widget-twitter ul li p{
+        font-family:'Crete Round',serif;
+        color:#dcdcdc;margin:0px;}
+    .widget-twitter ul li {
+        a{
+            font-family:'Crete Round',serif;
+            color: @color_green;
+            text-decoration: none;
+        }
+        a:hover{
+            color: @color_hover;
+        }
+    }
+}

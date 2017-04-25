@@ -26,10 +26,11 @@ class FrontServiceProvider extends ServiceProvider {
             $this->loadViewsFrom(__DIR__ . '/Views', 'vi');
         }
 
-
         $this->publishes([
-            __DIR__ . '/../database/migrations/' => database_path('migrations')
-                ], 'migrations');
+            __DIR__ . '/public' => public_path('front'),
+                ], 'public');
+        
+       
     }
 
     /**

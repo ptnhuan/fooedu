@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2014 {
+  background-color: #eeeeee !important;
+}
+.type-2014 .gray-bg {
+  background-color: #f7f7f7;
+  padding: 60px 0px;
+}
+.type-2014 .slide {
+  float: left;
+  width: 100%;
+  background-image: url(../images/mac2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 24px 72px 37px 75px;
+  -webkit-box-sizing: border-box;
+  background-position: center;
+}
+.type-2014 .intro {
+  width: 100%;
+  text-align: left;
+}
+.type-2014 .intro h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #0f1521;
+  text-transform: uppercase;
+  font-family: 'Crete Round', serif;
+}
+.type-2014 .intro p {
+  line-height: 30px;
+}
+.type-2014 .carousel-inner {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.type-2014 .carousel-inner img {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: auto;
+}
+.type-2014 .carousel-control {
+  width: 0;
+  color: #979797;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .type-2014 .introduction {
+    width: 50%;
+    float: left;
+  }
+  .type-2014 .slide {
+    padding: 14px 45px 37px 45px;
+  }
+}
+@media (max-width: 480px) {
+  .type-2014 .slide {
+    padding: 15px 44px 37px 45px;
+  }
+}

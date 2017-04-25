@@ -1,0 +1,247 @@
+.education-module-2 {
+  background-color: #eeeeee !important;
+}
+.education-module-2 .page-heading {
+  float: left;
+  width: 100%;
+  background-image: url('../images/page-heading-bg.jpg');
+  background-size: cover;
+  padding: 36px 0px;
+  margin: 10px 0px 100px 0px;
+}
+.education-module-2 .page-heading h2 {
+  color: #fff;
+  font-size: 21px;
+  margin: 0px;
+  font-weight: bold;
+}
+.education-module-2 .page-heading p {
+  color: #fff;
+  margin: 0px;
+  padding-top: 5px;
+}
+.education-module-2 events .thumb {
+  margin: 0px;
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-left: -20px;
+}
+.education-module-2 .events .thumb img {
+  width: 100%;
+}
+.education-module-2 .thumb:before,
+.education-module-2 .events .thumb:before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  content: "";
+  width: 85%;
+  height: 80%;
+  background-color: rgba(0,0,0,0.2);
+}
+.education-module-2 .thumb:hover:before,
+.education-module-2 .events .thumb:hover:before {
+  height: 0px;
+  width: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.education-module-2 .events .event-header span {
+  float: left;
+  width: 100px;
+  padding: 10px 20px 15px 20px;
+  text-align: center;
+  color: #32383b;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  border: solid 1px #00a685;
+  margin: 0px 20px 0px 0px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+}
+.education-module-2 .events h2 {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: 'Crete Round', serif;
+  margin: 0px 0px 15px 0px;
+  line-height: 24px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.education-module-2 .data-tags a:hover {
+  color: #00a685;
+}
+.education-module-2 .data-tags a {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-family: 'Crete Round', serif;
+  position: relative;
+  padding: 0px 0px 0px 15px;
+  margin: 0px 10px 0px 0px;
+  text-decoration: none;
+}
+.education-module-2 .data-tags a:before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -3px;
+  background-color: #00a685;
+}
+.education-module-2 .events .event-body {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+.education-module-2 .events {
+  margin-top: 55px;
+}
+.education-module-2 p {
+  margin: 0 0 10px;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.education-module-2 .event-vanue {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  margin: 0px 0px 20px 0px;
+}
+.education-module-2 .event-vanue table {
+  width: 100%;
+}
+.education-module-2 table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  font-variant: normal normal;
+  display: table;
+  border-color: grey;
+}
+.education-module-2 tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.education-module-2 .event-vanue table tr td {
+  border: solid 1px #d4d4d4;
+  padding: 10px;
+}
+.education-module-2 td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.education-module-2 .event-vanue p.color {
+  font-size: 16px;
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
+  color: #00a685;
+}
+.education-module-2 .event-vanue p {
+  margin: 0px;
+}
+.education-module-2 .event-vanue table tr td {
+  border: solid 1px #d4d4d4;
+  padding: 10px;
+}
+.education-module-2 .event-vanue table tr td i {
+  font-size: 18px;
+  margin: 0px 10px 0px 0px;
+  color: #00a685;
+}
+.education-module-2 .fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.education-module-2 .event-vanue table tr td a {
+  color: #333;
+  font-size: 12px;
+  margin: 0px 20px 0px 0px;
+  text-decoration: none;
+}
+.education-module-2 .btn-style {
+  background-color: #00a685;
+  color: #fff;
+}
+.education-module-2 .btn-style:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.education-module-2 .btn-style {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  text-decoration: none;
+}
+.education-module-2 .pagination {
+  margin: 20px 0;
+  float: left;
+  width: 100%;
+}
+.education-module-2 .pagination ul {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-radius: 4px;
+}
+.education-module-2 .pagination ul {
+  padding: 0;
+  margin: 0;
+}
+.education-module-2 .pagination ul>li {
+  display: inline;
+}
+.education-module-2 .pagination li {
+  line-height: 20px;
+}
+.education-module-2 .pagination ul>li:first-child>a {
+  border-left-width: 1px;
+}
+.education-module-2 .pagination ul>li>a {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: #00a685;
+}
+.education-module-2 .pagination ul>li>a:hover {
+  background-color: #00a685;
+}
+.education-module-2 .pagination ul>li>a:hover {
+  color: #ffffff;
+}
+@media (max-width: 480px) {
+  .education-module-2 .events .event-header span {
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+  }
+}

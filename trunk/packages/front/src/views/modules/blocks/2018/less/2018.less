@@ -1,0 +1,174 @@
+.bg-color{
+    background-color:#E6E6FA;
+}
+.type-2018{
+    font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
+    .blog-contant {
+        float: left;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+
+        .blog-comments {
+            float: left;
+            width: 100%;
+            position: relative;
+            border-bottom: solid 2px #000;
+            padding: 10px 15px;
+            background-color: #FFF;
+            border-top: solid 1px #dddddd;
+            border-left: solid 1px #dddddd;
+            border-right: solid 1px #dddddd;
+            a {
+                margin: 0px 10px 0px 0px;
+                color: #333;
+            }
+            a i{
+                color: @color_green;
+                padding-right: 5px;
+            }
+            a i:hover{
+                color: @color_hover;
+            }
+        }
+        .blog-comments:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            border-left: solid 1px #dddddd;
+            border-top: solid 1px #dddddd;
+            left: 40px;
+            top: -8px;
+            background-color: #fff;
+        }
+        .btn-style {
+            margin-bottom: 30px;
+            float:right;
+            font-size: 10px;
+            font-weight: normal;
+            text-transform: uppercase;
+            -webkit-transition: all 0.3s ease-in-out;
+            background-color: @color_green;
+            display: inline-block;
+            border-radius: 5px;
+            color: #fff;
+            padding: 10px 10px;
+            border: none;
+        }
+        .text p {
+            line-height: 24px;
+            margin-top: 30px;
+        }
+        .thumb {
+            margin: 0px;
+            float: left;
+            width: 100%;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .thumb img {
+            width: 100%;
+        }
+        .thumb:before, .thumb:before{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            content: "";
+            width: 85%;
+            height: 80%;
+            background-color: rgba(0,0,0,0.2);
+        }
+        .thumb:hover:before, .thumb:hover:before {
+            height: 0px;
+            width: 0px;
+            -webkit-transition: all 0.3s ease-in-out;
+        }
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+            color: #333;
+            font-family: 'Crete Round',serif;
+            margin: 20px 0px 20px 0px;
+            position: relative;
+            font-weight: 600;
+        }
+        h2 a:hover{
+            color: @color_green;
+        }
+        .btn-style:hover{
+            background-color: @color_hover;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        h2:before {
+            content: "";
+            width: 80px;
+            height: 2px;
+            background-color: #333;
+            left: 0px;
+            bottom: -7px;
+            position: absolute;
+        }
+        h2 a {
+            -webkit-transition: all 0.3s ease-in-out;
+            color: #333;
+        }
+        .blog-tags {
+            float: left;
+            width: 100%;
+            color: #333;
+            font-family: 'Crete Round',serif;
+            margin: 0px 0px 20px 0px;
+            a{
+                -webkit-transition: all 0.3s ease-in-out;
+                color: #333;
+            }
+            a:hover{
+                color: @color_green;
+                text-decoration: none;
+            }
+        }
+        .blog-contant .thumb:before{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            content: "";
+            width: 90%;
+            height: 80%;
+            background-color: rgba(0,0,0,0.2);
+        }
+
+    }
+
+    @media (max-width: 768px)
+        {
+        .col-md-8{
+            width: 50%;
+        }
+    }
+
+
+    @media (max-width: 488px)
+        {
+        .col-md-8{
+            width:29%;
+        }
+    }
+
+
+}
+
+

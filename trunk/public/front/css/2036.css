@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2036 {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.type-2036 .gray-bg {
+  padding: 60px 0px;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+.type-2036 .gray-bg .sec-header h2 {
+  font-size: 42px;
+  color: #171717;
+  line-height: 42px;
+  margin: 0px 0px 20px 0px;
+}
+.type-2036 .box {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.06);
+  transition: all 0.3s ease-in-out;
+  min-height: 660px;
+  border-bottom: solid 2px rgba(0,0,0,0.15);
+  padding: 20px;
+  text-align: left;
+}
+.type-2036 .box iframe {
+  width: 100%;
+  height: 150px;
+}
+.type-2036 .box h2 {
+  font-family: 'Crete Round', serif;
+  font-size: 30px;
+  color: #000;
+  margin: 0px 0px 20px 0px;
+}
+.type-2036 .box:hover {
+  background-color: #00a685;
+}
+.type-2036 .box:hover h2 {
+  color: #fff;
+}
+.type-2036 .box:hover .event-galley li {
+  border-color: #fff;
+}
+.type-2036 .box:hover .text {
+  color: #FFF;
+}
+.type-2036 .box:hover .text a {
+  color: #FFF;
+  text-decoration: none;
+}
+.type-2036 .box:hover .text a:hover {
+  color: #cecece;
+}
+.type-2036 .box:hover .text span {
+  color: #FFF;
+}
+.type-2036 .event-galley {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+}
+.type-2036 .event-galley li {
+  float: left;
+  width: 100%;
+  padding: 20px 0px;
+  border-top: dashed 1px #cecece;
+}
+.type-2036 .event-galley li:first-child {
+  border: none;
+  padding-top: 0px;
+}
+.type-2036 .event-galley .thumb {
+  float: left;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  margin: 0px 20px 0px 0px;
+}
+.type-2036 .event-galley .thumb img {
+  border-radius: 100%;
+}
+.type-2036 .event-galley .text {
+  font-family: 'Crete Round', serif;
+}
+.type-2036 .event-galley .text * {
+  margin: 0px;
+}
+.type-2036 .event-galley .text h4 {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: normal;
+}
+.type-2036 .event-galley .text a {
+  color: #00a685;
+  padding: 0px 5px 0px 0px;
+  display: inline-block;
+}
+.type-2036 .event-galley .text .rate {
+  font-size: 30px;
+  color: #00a685;
+}
+.type-2036 .next-course .text {
+  padding: 0px;
+}
+.type-2036 .next-course .text span {
+  color: #00a685;
+  font-size: 30px;
+}
+.type-2036 .next-course .text span small {
+  font-size: 16px;
+}
+.type-2036 .lesson .text h3 {
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0px;
+}
+.type-2036 .lesson .text span {
+  font-family: 'Crete Round', serif;
+  font-size: 18px;
+  color: #00a685;
+}
+.type-2036 .lesson .text p {
+  float: left;
+  width: 100%;
+  line-height: 30px;
+}
+.type-2036 .lesson .demo {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .type-2036 .text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  .type-2036 .box h2 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .type-2036 .event-galley .thumb {
+    float: none !important;
+    text-align: center !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .type-2036 .box h2 {
+    font-size: 22px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 1366px) and (min-width: 992px) {
+  .type-2036 .box h2 {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+}

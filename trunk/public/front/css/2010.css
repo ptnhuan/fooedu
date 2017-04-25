@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2010 {
+  background-color: #eeeeee !important;
+}
+.type-2010 .sidebar {
+  float: left;
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+}
+.type-2010 .sidebar .widget:first-child {
+  margin: 0px;
+}
+.type-2010 .sidebar .widget {
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  border-color: #00a685;
+}
+.type-2010 .sidebar .widget-course-categories {
+  border-color: #00a685 !important;
+  background-color: #0f1521;
+  border-top: solid 5px;
+  padding: 10px 0px;
+  background-image: url(../images/cate-bg.png);
+  background-position: bottom right;
+}
+.type-2010 .sidebar .widget-course-categories h2 {
+  color: #fff;
+  padding: 0px 20px;
+}
+.type-2010 .sidebar .widget-course-categories ul {
+  list-style: none;
+  float: left;
+  width: 100%;
+}
+.type-2010 .sidebar .widget-course-categories ul li {
+  float: left;
+  width: 100%;
+}
+.type-2010 .sidebar .widget-course-categories ul li a {
+  -webkit-transition: all 0.3s ease-in-out;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.type-2010 .sidebar .widget-course-categories ul li a:hover {
+  background-color: #00a685;
+  padding: 10px 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.type-2010 .sidebar .widget h2 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: normal;
+  font-family: 'Crete Round', serif;
+  margin: 0px 0px 15px 0px;
+}

@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2039 {
+  background: #f7f7f7;
+}
+.type-2039 .content-tab {
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+.type-2039 .sec-header {
+  text-align: center;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+.type-2039 .sec-header p {
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+  color: #00a685;
+}
+.type-2039 .sec-header h2 {
+  font-weight: 600;
+}
+.type-2039 .sec-header span {
+  height: 10px;
+  width: 10px;
+  background-color: #aaaaaa;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.type-2039 .nav-tabs {
+  border-bottom: none;
+}
+.type-2039 .nav-tabs>li.active>a,
+.type-2039 .nav-tabs>li.active>a:focus,
+.type-2039 .nav-tabs>li.active>a:hover {
+  color: #00a685;
+}
+.type-2039 .ie-tab-fix {
+  text-align: center;
+}
+.type-2039 .ie-tab-fix li {
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  float: none;
+}
+.type-2039 .ie-tab-fix li a {
+  font-size: 16px;
+  color: #d3d3d3;
+}
+.type-2039 .ie-tab-fix li a i {
+  font-size: 43px;
+}
+.type-2039 .ie-tab-fix li p {
+  margin: 0;
+}
+.type-2039 .ie-tab-fix li a:hover {
+  background: #fff;
+}
+.type-2039 .ie-tab-fix li.active a {
+  color: #00a685;
+}
+.type-2039 .ie-tab-fix li.active>a:hower {
+  color: #00a685;
+}
+.type-2039 .ie-content-fix li {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  list-style: none;
+}
+.type-2039 .ie-content-fix .thumb-content img {
+  border-radius: 100%;
+  transition: border-radius 0.3s;
+}
+.type-2039 .ie-content-fix .thumb-content img:hover {
+  border-radius: 20%;
+}
+.type-2039 .ie-content-fix .text h4 {
+  color: #00a685;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  margin: 10px 0;
+}
+.type-2039 .ie-content-fix .text p {
+  margin: 0 0 10px;
+}
+.type-2039 .ie-content-fix .text span {
+  font-size: 30px;
+  color: #00a685;
+  line-height: 20px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  margin: 10px 0;
+}
+@media (min-width: 1200px) {
+  .type-2039 .ie-tab-fix li a {
+    padding: 15px 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .type-2039 .ie-tab-fix li a {
+    padding: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .type-2039 .thumb-content img {
+    float: left;
+  }
+  .type-2039 .ie-content-fix .text {
+    padding: 0px 0px 0px 153px;
+    text-align: left;
+  }
+}
+@media (max-width: 991px) {
+  .type-2039 .col-12 {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .type-2039 li {
+    width: 100%;
+  }
+  .type-2039 li i {
+    font-size: 20px !important;
+    float: left;
+  }
+}

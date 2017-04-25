@@ -1,0 +1,236 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+
+.zaro{
+    .course-detail {
+        float: left;
+        width: 100%;
+        padding: 40px 0px;
+        margin: 0px 0px 30px 0px;
+        background-color: #00a685;
+        .banner{
+            position: relative;
+            margin: 0 auto 0px;
+            width: 83%;
+            float: right; 
+            padding: 4px;
+            background-color: #fff;
+            border-radius: 4px; 
+            img{
+                width: 100%;
+            }
+        }
+        #banner_pager{
+            float: left;
+            width: 11.7%;
+        }
+        .carousel-fade {
+            .carousel-inner {
+                .item {
+                    transition-property: opacity;
+                }
+
+                .item, .active.left, .active.right {
+                    opacity: 0;
+                }
+
+                .active, .next.left, .prev.right {
+                    opacity: 1;
+                }
+
+                .next, .prev, .active.left, .active.right {
+                    left: 0;
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+
+            .carousel-control {
+                z-index: 2;
+            }
+        }
+
+
+        //CAROUSEL SMALL
+        #bx_pager {
+            float: left !important;
+            width: 11.7%;
+
+            .padding-none{
+                padding: 0; 
+                margin: 10px 0px 0px 0px;
+
+            }
+            a {
+                padding: 4px;
+                display: block;
+                border-radius: 5px;  
+                background-color: #fff; 
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+
+        //TEXT
+        .text {
+            float: left;
+            width: 100%;
+            color: #0f1521;
+            h5,h2 {
+                font-size: 30px;
+                font-family: 'Crete Round',serif;
+                font-weight: normal;
+                margin: 0px 0px 15px 0px;
+            }
+            h5 {
+                font-size: 16px;
+            }
+            .reviews {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 15px 0px;
+                a {
+                    font-size: 16px;
+                    color: #000;
+                }
+            }
+            ul {
+                float: left;
+                width: 100%;
+                list-style: none;
+                margin: 30px 0px;
+                li {
+                    float: left;
+                    width: 100%;
+                    margin: 3px 0px;
+                    a {
+                        color: #0f1521;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+        .rating {
+            unicode-bidi: bidi-override;
+            direction: rtl;
+            display: inline-block;
+            float: right;
+            span {
+                font-size: 30px;
+                color: #ffd200;
+                width: auto;
+                display: inline-block;
+                position: relative;
+            }
+            span:hover:before,span:hover~span:before{
+                content:"\2605";
+                position:absolute;
+                left:0px;
+                right:0px;
+                margin:auto;}
+        }
+        .course-category {
+            text-align: right;
+            a {
+                font-size: 14px;
+                color: #fff;
+                font-style: italic;
+            }
+            h3 {
+                font-size: 18px;
+                font-family: 'Crete Round',serif;
+                color: #0f1521;
+                margin: 0px;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+        }
+
+    }
+}  
+
+@media (min-width: 980px){
+    .zaro{
+        .course-detail{
+            .padding-none:first-child {
+                margin: 0px;
+            }
+        }
+    }
+}
+@media (max-width: 979px) and (min-width: 768px){
+    .zaro{
+        .course-detail {
+            #bx_pager {
+                a {
+                    float: left;  
+                }
+            }
+        }
+    }
+}
+@media (max-width: 979px){
+    .zaro{
+        .course-detail
+        {
+            .banner{ 
+                width: 100%;
+                margin: 0px 0px 20px 0px;
+            }
+            #bx_pager {
+                width: 100%;
+                float: left;
+                a:first-child {
+                    margin: 0px 2px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .zaro{
+        .course-detail {
+            #bx_pager{ 
+                a {
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+

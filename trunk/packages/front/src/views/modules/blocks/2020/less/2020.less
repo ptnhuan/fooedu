@@ -1,0 +1,133 @@
+.bg-color{
+    background: #eee;
+}
+.type-2020{
+     font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+    
+    
+    .sidebar{
+        background: #fff;
+        float:left;
+        width:100%;
+        padding: 15px;
+        padding-bottom: 0;
+        .inner{
+            h2{
+                margin-top: 0;
+                color: @color_green;
+                font-weight: 600;
+            }
+        }
+        .top-courses{
+            float:left;
+            width:100%;
+            .thumb{
+                img{width:100%; height: 100%;}
+            }
+            .text{
+                padding-bottom: 20px;
+                h4{
+                    font-size:19px;
+                    font-weight:500;
+                    margin:0px;
+                    line-height:20px;
+                    a{
+                        color: @color_green;
+                        text-decoration: none;
+
+                    }
+                    a:hover{
+                        color: @color_hover;
+                        background: none;
+                    }
+                }
+                .btn-style{
+                    background: @color_green;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                }
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+                a:hover{
+                    background: @color_hover;
+                }
+            }
+            .widget-slider{
+                .owl-carousel{
+                    display: none;
+                    position: relative;
+                    width: 100%;
+                    -ms-touch-action: pan-y;
+                }
+                .owl-carousel .owl-wrapper{
+                    display: none;
+                    position: relative;
+                    -webkit-transform: translate3d(0px, 0px, 0px);
+                }
+                .owl-carousel .owl-wrapper-outer{
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                }
+                .owl-carousel .owl-item{
+                    float: left;
+                }
+                .owl-buttons{
+                    display: none;
+                }
+                #owl-demo .item img{
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+                .owl-theme .owl-controls .owl-page{
+                    display: inline-block;
+                    zoom: 1;
+                    *display: inline;/*IE7 life-saver */
+                }
+                .owl-controls{
+                    float: right;
+                }
+                .owl-page span:hover{
+                    cursor: pointer;
+                    background: #00a685 !important;
+                }
+                .owl-pagination .active{
+                    span{
+                        background: #00a685 !important;
+                    }
+                }
+                .owl-theme .owl-controls .owl-page span{
+                    display: block;
+                    width: 10px;
+                    height: 15px;
+                    margin: 5px 3px;
+                    filter: Alpha(Opacity=50);
+                    opacity: 0.5;
+                    background: #869791;
+                }
+            }
+        }
+    }
+    @media (min-width: 993px){
+        .thumb{
+            margin:0px 15px 0px 0px;
+        }
+    }
+    @media (max-width: 767px) and (min-width: 480px){
+        .thumb{
+            margin:0px 15px 0px 0px;
+        }
+    }
+    @media (max-width: 479px){
+        .slide-visit{
+            width: 100%;
+        }
+    }
+}
+
+

@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>@yield('title')</title>
+        @yield('head')
+    </head>
+    <body>
+        @yield('2034-content')     
+        @yield('2026-content')
+        @yield('2033-content')
+        @yield('2005-content')
+        @yield('2024-content')   
+        @yield('2044-content')
+    </body>
+</html>

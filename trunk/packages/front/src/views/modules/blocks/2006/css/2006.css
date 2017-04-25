@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2006 {
+  background-color: #eeeeee !important;
+}
+.type-2006 .the-best {
+  background-color: #00a685;
+  margin: 40px auto;
+  width: 940px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+}
+.type-2006 .the-best p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.type-2006 .the-best h2:before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #FFF;
+  position: absolute;
+  left: 0px;
+  top: -8px;
+}
+.type-2006 .the-best h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px 0px 0px 0px;
+  position: relative;
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .type-2006 .the-best {
+    width: 100%;
+  }
+}

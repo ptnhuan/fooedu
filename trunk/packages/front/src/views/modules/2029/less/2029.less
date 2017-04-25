@@ -1,0 +1,111 @@
+.type-2029{
+    background-color: #eeeeee;
+    padding-bottom: 50px;
+     font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
+    .text-detail {
+        float: left;
+        width: 100%;
+        margin: 20px 0px;
+        p {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            margin: 0 0 10px;
+            outline: none;
+        }
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+        }
+        ul li {
+            float: left;
+            width: 100%;
+            padding: 0px 0px 0px 20px;
+            position: relative;
+            margin: 5px 0px;
+        }
+        ul li:before {
+            content: "::";
+            color: #333;
+            font-size: 20px;
+            position: absolute;
+            left: 0px;
+        }
+        ul li a{
+            font-size: 20px;
+            color: @color_green;
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            outline: none;
+            -webkit-box-sizing: border-box;
+        }
+        ul li a:hover{
+            color: @color_hover;
+        }
+        a:-webkit-any-link {
+            cursor: auto;
+        }
+        li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+        }
+    }
+    .text-detail ul {
+        float: left;
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        width: 100%;
+        list-style: none;
+    }
+    .map {
+        margin-top: 50px;
+        border: 20px solid #fff;
+        .maps{
+            width: 100%;
+            border: 10px solid #fff;
+        }
+    }
+}
+@media (min-width: 481px){
+    .maps{
+        height: 450px;
+    }
+}
+@media (max-width: 480px){
+    .education-module-4{
+        p {
+            padding-top: 10px;
+        }
+        .map img {
+            width: 100%;
+            padding-bottom: 15px;
+        } 
+        .admin .thumb img {
+            width: 500px;
+        }
+        .admin .social-icons {
+            position: static;
+            margin: 10px 0px 10px 0px;
+            width: 100%;
+        }
+        .text h2 ,p{
+            width: 100%;
+        }
+        .leave-reply input[type="text"], .leave-reply textarea{
+            width: 100%;
+        }
+        .leave-reply textarea{
+            width: 100%;
+        }
+
+    }
+    .maps{
+        height: 250px;
+    }
+}

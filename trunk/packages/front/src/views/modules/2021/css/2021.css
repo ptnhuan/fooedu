@@ -1,0 +1,118 @@
+.bg-color {
+  background-color: #E6E6FA;
+}
+.type-2021 {
+  font-family: 'Crete Round', serif;
+}
+.type-2021 .sidebar {
+  float: left;
+  width: 100%;
+}
+.type-2021 .sidebar .widget {
+  margin-top: 30px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.type-2021 .sidebar .widget .btn-style {
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  background: #00a685;
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  float: right;
+}
+.type-2021 .sidebar .widget .btn-style:hover {
+  background: #0f1521;
+}
+.type-2021 .sidebar .widget-newsletter {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.type-2021 .sidebar .widget-newsletter .inner {
+  padding: 20px;
+}
+.type-2021 .sidebar .widget-newsletter .inner h2 {
+  margin-top: 0;
+  color: #00a685;
+}
+.type-2021 .sidebar .input-cover {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.type-2021 .sidebar .input-cover input[type="text"] {
+  background-color: #f2f2f2;
+  min-height: 40px;
+  border: solid 1px #dedede;
+  border-radius: 0px;
+  padding: 4px 6px 4px 36px;
+  width: 100%;
+}
+.type-2021 .sidebar .input-cover i {
+  min-height: 40px;
+  color: #c0c2c4;
+  position: absolute;
+  left: 10px;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.type-2021 .widget-tags ul {
+  float: left;
+  margin: 0px 0px 0px -20px;
+  list-style: none;
+  padding: 0;
+}
+.type-2021 .widget-tags ul li {
+  float: left;
+  margin: 0px 0px 10px 20px;
+}
+.type-2021 .widget-tags ul li a {
+  background: #00a685;
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 20px 5px 10px;
+  border-radius: 4px;
+  position: relative;
+  text-transform: capitalize;
+}
+.type-2021 .widget-tags ul li a:after {
+  background: #00a685;
+}
+.type-2021 .widget-tags ul li a:hover,
+.type-2021 .widget-tags ul li:hover a:after {
+  background-color: #0f1521;
+  text-decoration: none;
+}
+.type-2021 .widget-tags ul li a:after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: 3px;
+  right: -9px;
+}
+.type-2021 .widget-tags ul li a:before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #FFF;
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -4px;
+  z-index: 1;
+}

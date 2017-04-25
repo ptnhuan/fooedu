@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+.type-2004 {
+  background-color: #eeeeee !important;
+  padding: 0px 20px;
+}
+.type-2004 .search-result {
+  text-align: center;
+  margin: 200px 0px;
+}
+.type-2004 .search-result a {
+  color: #00a685;
+}
+.type-2004 .search-result a:hover {
+  text-decoration: none;
+}
+.type-2004 .search-result h1 {
+  color: #00a685;
+  font-size: 100px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  line-height: normal;
+}
+.type-2004 .search-result h2 {
+  font-size: 30px;
+  font-family: 'Crete Round', serif;
+  font-weight: normal;
+  line-height: normal;
+}
+.type-2004 .search-result .cover {
+  position: relative;
+  margin: 30px auto;
+  width: 70%;
+}
+.type-2004 .search-result .cover input[type="text"] {
+  margin: 0px;
+  min-height: 54px;
+  border-radius: 0px;
+  padding: 6px 70px 6px 10px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.type-2004 .search-result .cover input[type="text"]:focus {
+  border-color: #00a685;
+  outline: 0;
+}
+.type-2004 .search-result button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 16px 20px;
+  border-radius: 0px;
+}
+.type-2004 .search-result .btn-style:hover {
+  color: #fff;
+}
+.type-2004 .search-result .btn-style {
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.type-2004 .search-result .input-block-level {
+  width: 100%;
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .type-2004 .search-result h1 {
+    font-size: 70px;
+  }
+  .type-2004 .search-result h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .type-2004 .search-result {
+    margin: 100px 0px;
+  }
+  .type-2004 .search-result h1 {
+    font-size: 50px;
+  }
+  .type-2004 .search-result h2 {
+    font-size: 20px;
+  }
+}
