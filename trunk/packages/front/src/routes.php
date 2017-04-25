@@ -8,21 +8,21 @@ Route::get('/home', [
     'uses' => 'Front\Controllers\Front\FrontController@trangchu'
 ]);
 Route::get('/courses', [
-    'as' => 'en.categories',
-    'uses' => 'Front\Controllers\Front\FrontController@categories'
+    'as' => 'vi.categories',
+    'uses' => 'Front\Controllers\Front\FrontController@courses'
 ]);
 Route::get('/page', [
-    'as' => 'en.layout',
-    'uses' => 'Front\Controllers\Front\FrontController@layout'
+    'as' => 'vi.layout',
+    'uses' => 'Front\Controllers\Front\FrontController@page'
 ]);
 Route::get('/event', [
-    'as' => 'en.news',
-    'uses' => 'Front\Controllers\Front\FrontController@news'
+    'as' => 'vi.event',
+    'uses' => 'Front\Controllers\Front\FrontController@event'
 ]);
 
 Route::get('/contact', [
-    'as' => 'en.services',
-    'uses' => 'Front\Controllers\Front\FrontController@services'
+    'as' => 'vi.contact',
+    'uses' => 'Front\Controllers\Front\FrontController@contact'
 ]);
 
 
@@ -34,10 +34,7 @@ Route::get('/blog', [
     'as' => 'vi.tin-tuc',
     'uses' => 'Front\Controllers\Front\FrontController@tintuc'
 ]);
-Route::get('/giao-dien', [
-    'as' => 'vi.giao-dien',
-    'uses' => 'Front\Controllers\Front\FrontController@giaodien'
-]);
+
 Route::get('/service', [
     'as' => 'vi.dich-vu',
     'uses' => 'Front\Controllers\Front\FrontController@dichvu'
