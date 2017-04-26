@@ -107,7 +107,7 @@
 
         </div>
     </div>
-    <script>
+<!--    <script>
         $(document).ready(function () {
             $("#owl-demo").owlCarousel({
                 navigation: true,
@@ -116,5 +116,5 @@
                 singleItem: true
             });
         });
-    </script>
+    </script>-->
 </div>

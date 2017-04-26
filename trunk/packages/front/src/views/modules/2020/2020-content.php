@@ -27,11 +27,7 @@ $url_path = $url_host . $matches[1][0];
                                 </div>
                             </div>
 
-                            <script>
-                                $(document).ready(function () {
-                                    $('#myCarousel').find('.item').first().addClass('active');
-                                });
-                            </script>
+                            
                         </div>
                     </div>
                 </div>
@@ -54,14 +50,5 @@ $url_path = $url_host . $matches[1][0];
 
 
 
-    <script>
-        $(document).ready(function () {
-            $("#owl-demo").owlCarousel({
-                navigation: true,
-                slideSpeed: 300,
-                paginationSpeed: 400,
-                singleItem: true
-            });
-        });
-    </script>
+    
 </div>
