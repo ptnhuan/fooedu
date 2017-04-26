@@ -3,6 +3,10 @@
 /**
  * VI
  */
+Route::get('/', [
+    'as' => 'vi.trang-chu',
+    'uses' => 'Front\Controllers\Front\FrontController@trangchu'
+]);
 Route::get('/home', [
     'as' => 'vi.trang-chu',
     'uses' => 'Front\Controllers\Front\FrontController@trangchu'

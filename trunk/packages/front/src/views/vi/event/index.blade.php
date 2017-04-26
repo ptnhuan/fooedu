@@ -1,4 +1,4 @@
-@extends('front::masterpage')
+@extends('front::layout.masterpage')
 
 @section('content')
 @include('front::modules.2026.2026-content')

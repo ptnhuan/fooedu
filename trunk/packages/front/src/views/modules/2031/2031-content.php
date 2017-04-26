@@ -47,6 +47,91 @@ $url_path = $url_host . $matches[1][0];
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="course">
                         <div class="thumb">
+                            <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
+                            <div class="price"><span>$</span>32</div>
+                        </div>
+                        <div class="text">
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Holidays Education</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                </div>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$750</span>
+                                </div>
+
+                            </div>
+                            <div class="course-detail-btn">
+                                <a href="#">Subscribe</a>
+                                <a href="#">Detail</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="course">
+                        <div class="thumb">
+                            <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
+                            <div class="price"><span>$</span>75</div>
+                        </div>
+                        <div class="text">
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Marketing</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                </div>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$925</span>
+                                </div>
+
+                            </div>
+                            <div class="course-detail-btn">
+                                <a href="#">Subscribe</a>
+                                <a href="#">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="course">
+                        <div class="thumb">
+                            <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
+                            <div class="price"><span>$</span>25</div>
+                        </div>
+                        <div class="text">
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Management</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
+                                </div>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$1000</span>
+                                </div>
+
+                            </div>
+                            <div class="course-detail-btn">
+                                <a href="#">Subscribe</a>
+                                <a href="#">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="course">
+                        <div class="thumb">
                             <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
                             <div class="price"><span>$</span>21</div>
                         </div>
@@ -71,12 +156,6 @@ $url_path = $url_host . $matches[1][0];
                         </div>
                     </div>
                 </div>
-
-            
-
-               
-
-              
 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="course">

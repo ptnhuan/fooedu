@@ -1,4 +1,4 @@
-@extends('front::masterpage')
+@extends('front::layout.masterpage')
 
 @section('content')
 
