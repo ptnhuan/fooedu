@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 
 
 
@@ -78,7 +78,7 @@ $url_path = $url_host . $matches[1][0];
                 <!--LOGO-->
                 <div class="logo">
                     <a href="#">
-                        <a href="#"><img src="http://<?php echo $url_path ?>/images/logo.png" alt=""></a>
+                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/logo.png" alt=""></a>
                     </a>
                 </div>
                 <!--/END LOGO-->

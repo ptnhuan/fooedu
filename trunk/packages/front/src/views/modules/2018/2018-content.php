@@ -8,7 +8,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2018">
@@ -19,7 +19,7 @@ $url_path = $url_host . $matches[1][0];
                 Filed in: <a href="#">Online Courses</a> /  Tags: <a href="#">Fashion</a>, <a href="#">Learning</a>, <a href="#">webdesign</a>, <a href="#">Course</a>
             </div>
             <div class="thumb">
-                <a href="#"><img src="http://<?php echo $url_path ?>/images/blog-img.jpg" alt=""></a>
+                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/blog-img.jpg" alt=""></a>
             </div>
             <div class="text">
                 <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
@@ -37,7 +37,7 @@ $url_path = $url_host . $matches[1][0];
                 Filed in: <a href="#">Online Courses</a> /  Tags: <a href="#">Fashion</a>, <a href="#">Learning</a>, <a href="#">webdesign</a>, <a href="#">Course</a>
             </div>
             <div class="thumb">
-                <a href="#"><img src="http://<?php echo $url_path ?>/images/blog-img.jpg" alt=""></a>
+                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/blog-img.jpg" alt=""></a>
             </div>
             <div class="text">
                 <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
@@ -56,7 +56,7 @@ $url_path = $url_host . $matches[1][0];
                 Filed in: <a href="#">Online Courses</a> /  Tags: <a href="#">Fashion</a>, <a href="#">Learning</a>, <a href="#">webdesign</a>, <a href="#">Course</a>
             </div>
             <div class="thumb">
-                <a href="#"><img src="http://<?php echo $url_path ?>/images/blog-img.jpg" alt=""></a>
+                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/blog-img.jpg" alt=""></a>
             </div>
             <div class="text">
                 <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>

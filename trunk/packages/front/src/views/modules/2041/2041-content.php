@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2041">
@@ -84,7 +84,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-0">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi1.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi1.jpg" alt="">
                             </div>
                             <p>Naiana Ansa</p>
                             <p class="color">guitarist</p>
@@ -93,7 +93,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide"> 
                         <a id="carousel-selector-1">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi2.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi2.jpg" alt="">
                             </div>
                             <p>Jasmine Dou</p>
                             <p class="color">student</p>
@@ -102,7 +102,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-2">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi3.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi3.jpg" alt="">
                             </div>
                             <p>David john</p>
                             <p class="color">student</p>
@@ -111,7 +111,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-3">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi4.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi4.jpg" alt="">
                             </div>
                             <p>Roth Brown</p>
                             <p class="color">Artist</p>
@@ -120,7 +120,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-4">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi5.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi5.jpg" alt="">
                             </div>
                             <p>Timothy Smith</p>
                             <p class="color">Smithies</p>
@@ -129,7 +129,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-5">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi3.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/front/images/student-testi3.jpg" alt="">
                             </div>
                             <p>PT Kang</p>
                             <p class="color">student</p>
@@ -138,7 +138,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="swiper-slide">
                         <a id="carousel-selector-6">
                             <div class="thumb-img">
-                                <img src="http://<?php echo $url_path ?>/images//student-testi1.jpg" alt="">
+                                <img src="http://<?php echo $url_path ?>/images/student-testi1.jpg" alt="">
                             </div>
                             <p>Kinoko Nguyen</p>
                             <p class="color">guitarist</p>
@@ -152,7 +152,7 @@ $url_path = $url_host . $matches[1][0];
 
             </div>
         </div>
-        <div class="side-imgage"><img src="http://<?php echo $url_path ?>/images//testimonials-bg2.png" alt=""></div>
+        <div class="side-imgage"><img src="http://<?php echo $url_path ?>/front/images//testimonials-bg2.png" alt=""></div>
     </div>
     <div id="bg5" data-0="background-position:0px 0px;"
          data-end="background-position:0px -1800px;" 

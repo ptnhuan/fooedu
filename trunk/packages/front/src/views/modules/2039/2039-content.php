@@ -8,7 +8,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2039">
@@ -47,7 +47,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -57,7 +57,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -67,7 +67,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -87,7 +87,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -97,7 +97,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -113,7 +113,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -123,7 +123,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -133,7 +133,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -143,7 +143,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -153,7 +153,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -163,7 +163,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -179,7 +179,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -189,7 +189,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -199,7 +199,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -209,7 +209,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -219,7 +219,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -229,7 +229,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -244,7 +244,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -254,7 +254,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -264,7 +264,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -274,7 +274,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -284,7 +284,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -294,7 +294,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -310,7 +310,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -320,7 +320,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -330,7 +330,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -340,7 +340,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -350,7 +350,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -360,7 +360,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -375,7 +375,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -385,7 +385,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -395,7 +395,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -405,7 +405,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -415,7 +415,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -440,7 +440,7 @@ $url_path = $url_host . $matches[1][0];
                     <ul class="course-topics row">
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic1.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -450,7 +450,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>  
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/topic2.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -460,7 +460,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic3.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -470,7 +470,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic4.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -480,7 +480,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>   
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic5.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>
@@ -490,7 +490,7 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li class="col-md-4 col-sm-4 col-xs-6 col-12">
                             <div class="thumb-content">
-                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                                <a href="#"><img src="http://<?php echo $url_path ?>/front/images/topic6.jpg" alt=""></a>
                             </div>
                             <div class="text">
                                 <h4>HTML5 Programming</h4>

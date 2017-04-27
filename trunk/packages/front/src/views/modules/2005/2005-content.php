@@ -7,7 +7,7 @@
 
     preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+    $url_path = $url_host ;
 ?>
 
 <div class="type-2005">
@@ -24,7 +24,7 @@
                         <a href="#" class="btn-style">View Courses</a>
                     </div>
                     <div class="col-md-6">
-                        <img src="http://<?php echo $url_path ?>/images/student-profile1.jpg" alt="">
+                        <img src="http://<?php echo $url_path ?>/front/images/student-profile1.jpg" alt="">
                     </div>  
                 </div>
             </div>
@@ -43,7 +43,7 @@
                         <a href="#" class="btn-style">View Courses</a>
                     </div>
                     <div class="col-md-6">
-                        <img src="http://<?php echo $url_path ?>/images/student-profile2.jpg" alt="">
+                        <img src="http://<?php echo $url_path ?>/front/images/student-profile2.jpg" alt="">
                     </div>  
                 </div>
             </div>
@@ -62,7 +62,7 @@
                         <a href="#" class="btn-style">View Courses</a>
                     </div>
                     <div class="col-md-6">
-                        <img src="http://<?php echo $url_path ?>/images/student-profile1.jpg" alt="">
+                        <img src="http://<?php echo $url_path ?>/front/images/student-profile1.jpg" alt="">
                     </div>  
                 </div>
             </div>

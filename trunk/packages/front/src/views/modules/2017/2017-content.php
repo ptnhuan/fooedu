@@ -7,7 +7,7 @@
 
     preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+    $url_path = $url_host ;
 ?>
 
 <div class="type-2017">
@@ -38,7 +38,7 @@
                             <li>
                                 <h4>Donec neque ipsum, sodales nec trist</h4>
                                 <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/papular-post.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/papular-post.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <p class="date">19 May 2012 <span>Admin</span></p>
@@ -50,7 +50,7 @@
                             <li>
                                 <h4>Donec neque ipsum, sodales nec trist</h4>
                                 <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/papular-post2.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/papular-post2.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <p class="date">19 May 2012 <span>Admin</span></p>
@@ -62,7 +62,7 @@
                             <li>
                                 <h4>Donec neque ipsum, sodales nec trist</h4>
                                 <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/papular-post3.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/papular-post3.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <p class="date">19 May 2012 <span>Admin</span></p>
@@ -74,7 +74,7 @@
                             <li>
                                 <h4>Donec neque ipsum, sodales nec trist</h4>
                                 <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/papular-post4.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/papular-post4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <p class="date">19 May 2012 <span>Admin</span></p>
@@ -90,14 +90,14 @@
                     <div class="widget widget-flickr">
                         <h2>Flickr Photos</h2>
                         <ul>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr3.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr6.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="http://<?php echo $url_path ?>/images/flickr3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr2.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr3.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr4.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr5.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr6.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr2.jpg" alt=""></a></li>
+                            <li><a href="#"><img src="http://<?php echo $url_path ?>/front/images/flickr3.jpg" alt=""></a></li>
                         </ul>
                     </div>
                     <!--/END WIDGET FLICKS-->

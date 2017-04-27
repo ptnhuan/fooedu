@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2033">

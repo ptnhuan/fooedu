@@ -7,7 +7,7 @@
 
     preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+    $url_path = $url_host ;
 ?>
 
 <div class="type-2035">
@@ -40,7 +40,7 @@
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
                                 <div class="thumb-teacher">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" class="img-responsive" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/teachers4.jpg" class="img-responsive" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <h2><a href="#">Mickey Rorey</a></h2>
@@ -62,7 +62,7 @@
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
                                 <div class="thumb-teacher">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <h2><a href="#">Mickey Rorey</a></h2>
@@ -84,7 +84,7 @@
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
                                 <div class="thumb-teacher">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <h2><a href="#">Mickey Rorey</a></h2>
@@ -106,7 +106,7 @@
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
                                 <div class="thumb-teacher">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
+                                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
                                     <h2><a href="#">Mickey Rorey</a></h2>

@@ -8,7 +8,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2042">  
@@ -18,7 +18,7 @@ $url_path = $url_host . $matches[1][0];
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="span6">
-                            <img src="http://<?php echo $url_path ?>/images/student.png">
+                            <img src="http://<?php echo $url_path ?>/front/images/student.png">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">

@@ -154,6 +154,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Front\FrontServiceProvider::class,
+        Admin\AdminServiceProvider::class,
+        Post\PostServiceProvider::class,
+        Contact\ContactServiceProvider::class,
+        Slideshow\SlideshowServiceProvider::class,
     ],
     /*
       |--------------------------------------------------------------------------

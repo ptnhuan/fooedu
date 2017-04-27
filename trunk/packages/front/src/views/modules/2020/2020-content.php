@@ -8,7 +8,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2020">
@@ -21,9 +21,9 @@ $url_path = $url_host . $matches[1][0];
                         <div class="thumb">
                             <div class="widget widget-slider" id="myCarousel">
                                 <div id="owl-demo" class="owl-carousel">
-                                    <div class="item"><img src="http://<?php echo $url_path ?>/images/top-courses.jpg" alt="The Last of us"></div>
-                                    <div class="item"><img src="http://<?php echo $url_path ?>/images/top-courses2.jpg" alt="The Last of us"></div>
-                                    <div class="item"><img src="http://<?php echo $url_path ?>/images/top-courses3.jpg" alt="The Last of us"></div>
+                                    <div class="item"><img src="http://<?php echo $url_path ?>/front/images/top-courses.jpg" alt="The Last of us"></div>
+                                    <div class="item"><img src="http://<?php echo $url_path ?>/front/images/top-courses2.jpg" alt="The Last of us"></div>
+                                    <div class="item"><img src="http://<?php echo $url_path ?>/front/images/top-courses3.jpg" alt="The Last of us"></div>
                                 </div>
                             </div>
 

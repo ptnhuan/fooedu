@@ -7,7 +7,8 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+
+$url_path = $url_host ;
 ?>
 <div class="clearfix"></div>
 <div class="type-2038">
@@ -16,16 +17,16 @@ $url_path = $url_host . $matches[1][0];
         <!--SLIDER-->
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="http://<?php echo $url_path ?>/images/banner1.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/front/images/banner1.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="http://<?php echo $url_path ?>/images/banner2.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/front/images/banner2.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="http://<?php echo $url_path ?>/images/banner3.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/front/images/banner3.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="http://<?php echo $url_path ?>/images/banner4.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/front/images/banner4.jpg" class="img-responsive">
             </div>
         </div>
         <!--/END SLIDER-->

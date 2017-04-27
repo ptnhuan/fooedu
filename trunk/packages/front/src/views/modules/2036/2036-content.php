@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2036">
@@ -22,7 +22,7 @@ $url_path = $url_host . $matches[1][0];
                         <ul class="event-galley">
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <p>21-04-2012</p>
@@ -33,7 +33,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <p>21-04-2012</p>
@@ -44,7 +44,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <p>21-04-2012</p>
@@ -55,7 +55,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <p>21-04-2012</p>
@@ -92,7 +92,7 @@ $url_path = $url_host . $matches[1][0];
                         <ul class="event-galley">
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <h4><a href="#">Computer</a></h4>
@@ -102,7 +102,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <h4><a href="#">Computer</a></h4>
@@ -112,7 +112,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <h4><a href="#">Computer</a></h4>
@@ -122,7 +122,7 @@ $url_path = $url_host . $matches[1][0];
                             </li>
                             <li>
                                 <div class="thumb">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                                 </div>
                                 <div class="text">
                                     <h4><a href="#">Computer</a></h4>

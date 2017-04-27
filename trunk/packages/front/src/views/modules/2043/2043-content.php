@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host;
 ?>
 <div class="type-2043">
     <div class="container">
@@ -25,7 +25,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item ">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
                                 <div class="text">
@@ -53,7 +53,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
                                 <div class="text">
@@ -82,7 +82,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
                                 <div class="text">
@@ -110,7 +110,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
                                 <div class="text">
@@ -138,7 +138,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
                                 <div class="text">
@@ -166,7 +166,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
                                 <div class="text">
@@ -194,7 +194,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
                                 <div class="text">
@@ -222,7 +222,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
                                 <div class="text">
@@ -250,7 +250,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
                                 <div class="text">
@@ -278,7 +278,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
                                 <div class="text">
@@ -306,7 +306,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
                                 <div class="text">
@@ -334,7 +334,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="item">
                             <div class="course">
                                 <div class="thumb-img-slide">
-                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
+                                    <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
                                 <div class="text">

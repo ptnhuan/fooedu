@@ -7,7 +7,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 
@@ -76,9 +76,9 @@ $url_path = $url_host . $matches[1][0];
                         <h2>Our Articles</h2>
                         <div class="widget widget-slider" id="myCarousel">
                             <div id="carousel-2" class="owl-carousel owl-theme">
-                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
-                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
-                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/front/images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/front/images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/front/images/article.jpg" alt="The Last of us"></div>
                             </div>
                         </div>
 
@@ -95,7 +95,7 @@ $url_path = $url_host . $matches[1][0];
                             <ul>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -104,7 +104,7 @@ $url_path = $url_host . $matches[1][0];
                                 </li>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -113,7 +113,7 @@ $url_path = $url_host . $matches[1][0];
                                 </li>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -130,7 +130,7 @@ $url_path = $url_host . $matches[1][0];
                             <ul>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Trusted Certificate</p>
@@ -139,7 +139,7 @@ $url_path = $url_host . $matches[1][0];
                                 </li>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>1200 Video Lessons</p>
@@ -148,7 +148,7 @@ $url_path = $url_host . $matches[1][0];
                                 </li>
                                 <li>
                                     <div class="thumb-footer">
-                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/front/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>1200 Video Lessons</p>
@@ -255,7 +255,7 @@ $url_path = $url_host . $matches[1][0];
                         <div class="widget widget-facebook">
                             <h2>Fcebook</h2>
                             <div class="pull-left">
-                                <img src="http://<?php echo $url_path ?>/images/facebook-widget.jpg" alt="" class="img-responsive">
+                                <img src="http://<?php echo $url_path ?>/front/images/facebook-widget.jpg" alt="" class="img-responsive">
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+$url_path = $url_host ;
 ?>
 
 <div class="type-2040">
@@ -28,7 +28,7 @@ $url_path = $url_host . $matches[1][0];
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="post">
                                     <div class="thumb">
-                                        <img src="http://<?php echo $url_path ?>/images/post.png" alt="">
+                                        <img src="http://<?php echo $url_path ?>/front/images/post.png" alt="">
                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                         <div class="black"></div>
                                     </div>
@@ -68,7 +68,7 @@ $url_path = $url_host . $matches[1][0];
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="post">
                                     <div class="thumb">
-                                        <img src="http://<?php echo $url_path ?>/images/post.png" alt="">
+                                        <img src="http://<?php echo $url_path ?>/front/images/post.png" alt="">
                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                         <div class="black"></div>
                                     </div>

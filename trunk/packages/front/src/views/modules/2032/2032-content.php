@@ -8,7 +8,7 @@
 
     preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+    $url_path = $url_host ;
 ?>
 
 <div class="type-2032">
@@ -42,7 +42,7 @@
                         <li>
 
                             <div class="thumb">
-                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event1.png"></a>
+                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event1.png"></a>
                             </div>
 
                             <div class="text">
@@ -55,7 +55,7 @@
 
                         <li>
                             <div class="thumb">
-                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event2.png"></a>
+                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event2.png"></a>
                             </div>
                             <div class="text">
                                 <h4><a href="#">Computer</a></h4>
@@ -66,7 +66,7 @@
 
                         <li>
                             <div class="thumb">
-                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event3.png"></a>
+                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event3.png"></a>
                             </div>
                             <div class="text">
                                 <h4><a href="#">Computer</a></h4>
@@ -77,7 +77,7 @@
 
                         <li>
                             <div class="thumb">
-                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/event4.png"></a>
+                                <a href="#"><img alt="" src="http://<?php echo $url_path ?>/front/images/event4.png"></a>
                             </div>
                             <div class="text">
                                 <h4><a href="#">Computer</a></h4>
@@ -94,9 +94,9 @@
                 <h2>Upcoming Courses</h2>
                 <div class="span12">
                     <div id="owl-demo" class="owl-carousel">
-                        <div class="item"><img src="http://<?php echo $url_path ?>/images/side-slider.png" alt="The Last of us"></div>
-                        <div class="item"><img src="http://<?php echo $url_path ?>/images/side-slider2.png" alt="The Last of us"></div>
-                        <div class="item"><img src="http://<?php echo $url_path ?>/images/side-slider.png" alt="The Last of us"></div>
+                        <div class="item"><img src="http://<?php echo $url_path ?>/front/images/side-slider.png" alt="The Last of us"></div>
+                        <div class="item"><img src="http://<?php echo $url_path ?>/front/images/side-slider2.png" alt="The Last of us"></div>
+                        <div class="item"><img src="http://<?php echo $url_path ?>/front/images/side-slider.png" alt="The Last of us"></div>
                     </div>
                     <div class="text">
                         <p>Creating Responsive Web Design</p>
