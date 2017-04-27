@@ -7,7 +7,7 @@
 
     preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+    $url_path = $url_host ;
 ?>
 
 <div class="type-2012">
@@ -15,7 +15,7 @@
         <div class="latest-news">
             <div class="news-contant">
                 <div class="thumb">
-                    <a href="#"><img src="http://<?php echo $url_path ?>/images/news-thumb.jpg" alt=""></a>
+                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/news-thumb.jpg" alt=""></a>
                 </div>
                 <div class="text">
                     <h2>Learn Creative Skills, Shape Your Future</h2>
@@ -31,7 +31,7 @@
 
             <div class="news-contant">
                 <div class="thumb">
-                    <a href="#"><img src="http://<?php echo $url_path ?>/images/news-thumb.jpg" alt=""></a>
+                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/news-thumb.jpg" alt=""></a>
                 </div>
                 <div class="text">
                     <h2>Learn Creative Skills, Shape Your Future</h2>
@@ -46,7 +46,7 @@
             </div>
             <div class="news-contant">
                 <div class="thumb">
-                    <a href="#"><img src="http://<?php echo $url_path ?>/images/news-thumb.jpg" alt=""></a>
+                    <a href="#"><img src="http://<?php echo $url_path ?>/front/images/news-thumb.jpg" alt=""></a>
                 </div>
                 <div class="text">
                     <h2>Learn Creative Skills, Shape Your Future</h2>
